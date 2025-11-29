@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/devices_item" android:layout_width="@dimen/dp920" android:layout_height="@dimen/dp136"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/devices_icon" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginTop="@dimen/dp40" />
+    <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:id="@id/devices_name" android:layout_width="wrap_content" android:layout_height="@dimen/dp40" android:layout_marginTop="@dimen/dp48" android:maxWidth="@dimen/dp500" android:text="" android:layout_marginStart="@dimen/dp96" />
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/devices_bt" android:background="@drawable/ic_blue_tooth" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginTop="@dimen/dp40" android:layout_marginStart="@dimen/dp656" />
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/devices_link" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginTop="@dimen/dp40" android:layout_marginStart="@dimen/dp760" />
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/devices_del" android:background="@drawable/ic_delete" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginTop="@dimen/dp40" android:layout_marginStart="@dimen/dp864" />
+    <View android:background="@color/color_dividing_line" android:layout_width="@dimen/dp920" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp135" />
+</RelativeLayout>

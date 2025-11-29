@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/instrumentBackLightProgressBar" android:background="@null" android:layout_width="946.0px" android:layout_height="160.0px" android:layout_marginLeft="-20.0px" android:maxHeight="80.0px" android:max="10" android:progress="1" android:progressDrawable="@drawable/shine_mode_progress_background" android:thumb="@null" android:splitTrack="@null" android:min="1" />
+    <ImageView android:layout_width="48.0px" android:layout_height="48.0px" android:layout_marginLeft="25.0px" android:layout_marginTop="56.0px" android:src="@drawable/ic_shine_progress_bar_image" />
+    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/backLightText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="58.0px" android:text="@string/setting_instrument_back_light" />
+    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+</FrameLayout>

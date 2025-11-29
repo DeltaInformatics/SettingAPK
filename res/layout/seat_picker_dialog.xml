@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/seat_picker_dialog_layout" android:layout_width="1872.0px" android:layout_height="872.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="1872.0px" android:layout_height="858.0px">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/seatDialogBg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/seatOnlyDriveBg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/seat_only_drive_bg" android:scaleType="fitXY" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/seat_picker_seat_driver_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp747" android:layout_marginTop="@dimen/dp127" android:text="@string/setting_seat_driver_text" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/seat_picker_seat_passenger_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp1067" android:layout_marginTop="@dimen/dp127" android:text="@string/setting_seat_passenger_text" />
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/kanziSeatBack" android:background="@drawable/icon_common_dialog_close" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="40.0px" android:layout_marginTop="32.0px" />
+        <LinearLayout android:gravity="center" android:id="@id/swSeatPickerLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="136.0px" android:layout_marginTop="128.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swSeatPicker" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/seat_welcome_text" android:layout_width="168.0px" android:layout_height="44.0px" android:layout_marginLeft="20.0px" android:text="@string/setting_driver_seat_welcome" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginLeft="136.0px" android:layout_marginTop="213.0px">
+            <ImageView android:id="@id/seatButtonPart1" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_text_shape1" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape1" />
+            <ImageView android:id="@id/seatButtonTitleImageShape1" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginLeft="136.0px" android:layout_marginTop="341.0px">
+            <ImageView android:id="@id/seatButtonPart2" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_text_shape2" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape2" />
+            <ImageView android:id="@id/seatButtonTitleImageShape2" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginLeft="136.0px" android:layout_marginTop="469.0px">
+            <ImageView android:id="@id/seatButtonPart3" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_text_shape3" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape3" />
+            <ImageView android:id="@id/seatButtonTitleImageShape3" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+        </FrameLayout>
+        <Button android:textSize="28.0px" android:textStyle="normal" android:textColor="@color/pressed_button_text_color" android:id="@id/seat_save_button" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginLeft="136.0px" android:layout_marginTop="597.0px" android:text="@string/setting_seat_save" android:stateListAnimator="@null" />
+        <RelativeLayout android:id="@id/btn_massage" android:background="@drawable/seat_picker_button_background" android:visibility="gone" android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginTop="720.0px" android:layout_marginStart="136.0px">
+            <ImageView android:layout_width="16.0px" android:layout_height="16.0px" android:layout_marginLeft="240.0px" android:layout_marginTop="54.0px" android:src="@drawable/pressed_ids_button_triangle" />
+            <TextView android:textSize="28.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/setting_seat_massage_text" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/passenger_layout" android:layout_width="262.0px" android:layout_height="549.0px" android:layout_marginLeft="1474.0px" android:layout_marginTop="128.0px">
+            <LinearLayout android:gravity="center" android:id="@id/swPassengerSeatPickerLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swPassengerSeatPicker" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/seat_passenger_welcome_text" android:layout_width="168.0px" android:layout_height="44.0px" android:layout_marginLeft="20.0px" android:text="@string/setting_passenger_seat_welcome" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginTop="85.0px">
+                <ImageView android:id="@id/seatPassengerButtonPart1" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+                <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_passenger_text_shape1" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape1" />
+                <ImageView android:id="@id/seatPassengerButtonTitleImageShape1" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginTop="213.0px">
+                <ImageView android:id="@id/seatPassengerButtonPart2" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+                <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_passenger_text_shape2" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape2" />
+                <ImageView android:id="@id/seatPassengerButtonTitleImageShape2" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginTop="341.0px">
+                <ImageView android:id="@id/seatPassengerButtonPart3" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" />
+                <TextView android:textSize="24.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:id="@id/seat_passenger_text_shape3" android:layout_width="152.0px" android:layout_height="48.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="14.0px" android:text="@string/setting_seat_shape3" />
+                <ImageView android:id="@id/seatPassengerButtonTitleImageShape3" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="168.0px" android:layout_marginTop="12.0px" android:src="@drawable/seat_button_edit_name_img_bg" />
+            </FrameLayout>
+            <Button android:textSize="28.0px" android:textStyle="normal" android:textColor="@color/pressed_button_text_color" android:id="@id/seat_passenger_save_button" android:background="@drawable/seat_picker_button_background" android:layout_width="262.0px" android:layout_height="80.0px" android:layout_marginTop="469.0px" android:text="@string/setting_seat_save" android:stateListAnimator="@null" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

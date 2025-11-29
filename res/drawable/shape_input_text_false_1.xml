@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/input_test_view_bg_1" />
+    <corners android:radius="@dimen/dp12" />
+    <stroke android:width="@dimen/dp1" android:color="@color/check_btn_stroke_bg_1" />
+</shape>

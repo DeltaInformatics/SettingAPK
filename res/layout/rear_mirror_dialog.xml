@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flParentView" android:tag="layout/rear_mirror_dialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/rear_mirror_bg" android:layout_width="1872.0px" android:layout_height="858.0px" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="1872.0px" android:layout_height="858.0px" android:layout_marginBottom="10.0px">
+        <ImageView android:id="@id/kanziRearMirrorBack" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="32.0px" android:src="@drawable/icon_common_dialog_close" />
+        <LinearLayout android:gravity="center" android:id="@id/switch_auto_mirror" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="136.0px" android:layout_marginTop="@dimen/dp40">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swRearMirrorPicker" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="168.0px" android:layout_height="wrap_content" android:layout_marginLeft="12.0px" android:text="@string/setting_rear_mirror_lock_close" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ll_mirror_memory" android:background="@drawable/rear_mirror_button_bg" android:layout_width="400.0px" android:layout_height="80.0px" android:layout_marginTop="@dimen/dp40" android:layout_marginStart="136.0px">
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_width="204.0px" android:layout_height="fill_parent" android:text="@string/setting_rear_mirror_memory_set" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/tv_memory_size" android:visibility="visible" android:layout_width="196.0px" android:layout_height="fill_parent" android:text="@string/setting_rear_mirror_memory_set_one" />
+            <Button android:textSize="28.0px" android:textColor="@color/color_lock_picked_text_color" android:gravity="center" android:id="@id/btn_mirror_memory" android:background="@drawable/dialog_new_button" android:visibility="gone" android:layout_width="196.0px" android:layout_height="fill_parent" android:text="保存" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/rear_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="136.0px" android:layout_marginTop="@dimen/dp40" android:text="@string/setting_wide_rear_mirror" />
+        <FrameLayout android:id="@id/rear_auto" android:layout_width="400.0px" android:layout_height="80.0px" android:layout_marginLeft="138.0px" android:layout_marginTop="@dimen/dp20">
+            <ImageView android:background="@drawable/rear_mirror_button_bg" android:clickable="false" android:layout_width="400.0px" android:layout_height="80.0px" />
+            <ImageView android:id="@id/rearMirrorOpen" android:background="@drawable/rear_mirror_button_background" android:layout_width="200.0px" android:layout_height="80.0px" />
+            <ImageView android:id="@id/rearMirrorClose" android:background="@drawable/rear_mirror_button_background" android:layout_width="200.0px" android:layout_height="80.0px" android:layout_marginLeft="200.0px" />
+            <ImageView android:id="@id/rearMirrorOpenImage" android:layout_width="72.0px" android:layout_height="72.0px" android:layout_marginLeft="24.0px" android:src="@drawable/ic_rear_mirror_button_open" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_rear_mirror_text_color" android:id="@id/rearMirrorOpenText" android:layout_width="58.0px" android:layout_height="40.0px" android:layout_marginLeft="96.0px" android:layout_marginTop="18.0px" android:text="@string/setting_rear_mirror_open" />
+            <ImageView android:id="@id/rearMirrorCloseImage" android:layout_width="72.0px" android:layout_height="72.0px" android:layout_marginLeft="227.0px" android:src="@drawable/ic_rear_mirror_button_close" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_rear_mirror_text_color" android:id="@id/rearMirrorCloseText" android:layout_width="57.0px" android:layout_height="40.0px" android:layout_marginLeft="299.0px" android:layout_marginTop="18.0px" android:text="@string/setting_rear_mirror_close" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_mirror_mode" android:layout_width="867.0px" android:layout_height="141.0px" android:layout_marginTop="@dimen/dp40" android:layout_marginStart="138.0px">
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="196.0px" android:layout_height="41.0px" android:text="@string/setting_rear_mirror_reverse_mode" />
+            <com.autolink.hmi.carsettings.view.CustomFrameLayout android:background="@drawable/lock_button_add_line_background" android:clickable="true" android:layout_width="744.0px" android:layout_height="80.0px" android:layout_marginTop="63.0px">
+                <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/ll_mirror_mode" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabIndicator="@drawable/tab_indicator_bg" style="@style/CustomTabLayout" />
+                <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/btn_mirror_mode_one" android:layout_width="186.0px" android:layout_height="80.0px" android:text="@string/setting_rear_mirror_reverse_mode_one" />
+                <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/btn_mirror_mode_two" android:layout_width="186.0px" android:layout_height="80.0px" android:layout_marginLeft="186.0px" android:text="@string/setting_rear_mirror_reverse_mode_two" />
+                <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/btn_mirror_mode_three" android:layout_width="186.0px" android:layout_height="80.0px" android:layout_marginLeft="372.0px" android:text="@string/setting_rear_mirror_reverse_mode_three" />
+                <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/btn_mirror_mode_four" android:layout_width="186.0px" android:layout_height="80.0px" android:layout_marginLeft="558.0px" android:text="@string/setting_rear_mirror_reverse_mode_four" />
+            </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="28.0px" android:textColor="@color/color_rear_mirror_tip_text_color" android:id="@id/rear_mirror_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1168.0px" android:layout_marginTop="720.0px" android:text="@string/setting_rear_mirror_tips" />
+</FrameLayout>

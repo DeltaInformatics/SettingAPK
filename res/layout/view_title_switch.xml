@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.autolink.hmi.carsettings.view.SwitchButton android:id="@id/switchCompat" android:layout_width="@dimen/dp74" android:layout_height="@dimen/dp40" app:sb_background="@color/color_switch_button_uncheck_color" app:sb_checked_color="@color/switch_button_checked_color" app:sb_show_indicator="false" app:sb_uncheck_color="@color/color_switch_button_uncheck_color" />
+    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" />
+</LinearLayout>

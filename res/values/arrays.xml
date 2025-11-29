@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arc_colors_default">
+        <item>#ff1a2a6c</item>
+        <item>#ffb21f1f</item>
+        <item>#fffdbb2d</item>
+    </array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, active</item>
+        <item>, active (media)</item>
+        <item>, active (phone)</item>
+    </string-array>
+    <string-array name="change_mode_array">
+        <item>白天</item>
+        <item>黑夜</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Enhanced colors</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="connect_tab2">
+        <item>蓝牙</item>
+        <item>网络</item>
+    </string-array>
+    <string-array name="connect_tab3">
+        <item>蓝牙</item>
+        <item>互联设备</item>
+        <item>网络</item>
+    </string-array>
+    <string-array name="display_tab">
+        <item>语言</item>
+        <item>屏幕</item>
+        <item>时间</item>
+        <item>单位</item>
+    </string-array>
+    <string-array name="general_tab">
+        <item>车辆信息</item>
+        <item>系统</item>
+    </string-array>
+    <array name="rgb_color_pick_array">
+        <item>#ff0000ff</item>
+        <item>#ff000fff</item>
+        <item>#ff001eff</item>
+        <item>#ff0032ff</item>
+        <item>#ff0046ff</item>
+        <item>#ff005aff</item>
+        <item>#ff0073ff</item>
+        <item>#ff008cff</item>
+        <item>#ff00a5ff</item>
+        <item>#ff00beff</item>
+        <item>#ff00dcff</item>
+        <item>#ff00ffff</item>
+        <item>#ff00fff0</item>
+        <item>#ff00ffd2</item>
+        <item>#ff00ffaa</item>
+        <item>#ff00ff91</item>
+        <item>#ff00ff73</item>
+        <item>#ff00ff55</item>
+        <item>#ff00ff3c</item>
+        <item>#ff00ff28</item>
+        <item>#ff00ff14</item>
+        <item>#ff00ff00</item>
+        <item>#ff14ff00</item>
+        <item>#ff28ff00</item>
+        <item>#ff3cff00</item>
+        <item>#ff55ff00</item>
+        <item>#ff6eff00</item>
+        <item>#ff87ff00</item>
+        <item>#ffa5ff00</item>
+        <item>#ffc8ff00</item>
+        <item>#ffe1ff00</item>
+        <item>#fff0ff00</item>
+        <item>#ffffff00</item>
+        <item>#ffffdc00</item>
+        <item>#ffffb400</item>
+        <item>#ffff9600</item>
+        <item>#ffff6e00</item>
+        <item>#ffff5a00</item>
+        <item>#ffff4600</item>
+        <item>#ffff3200</item>
+        <item>#ffff1e00</item>
+        <item>#ffff0a00</item>
+        <item>#ffff0000</item>
+        <item>#ffff000a</item>
+        <item>#ffff0019</item>
+        <item>#ffff0028</item>
+        <item>#ffff003c</item>
+        <item>#ffff0050</item>
+        <item>#ffff0064</item>
+        <item>#ffff0082</item>
+        <item>#ffff00a0</item>
+        <item>#ffff00c8</item>
+        <item>#ffff00e6</item>
+        <item>#ffe600ff</item>
+        <item>#ffd200ff</item>
+        <item>#ffaa00ff</item>
+        <item>#ff9600ff</item>
+        <item>#ff8200ff</item>
+        <item>#ff6400ff</item>
+        <item>#ff5000ff</item>
+        <item>#ff3c00ff</item>
+        <item>#ff2d00ff</item>
+        <item>#ff1e00ff</item>
+        <item>#ff0f00ff</item>
+    </array>
+    <string-array name="rgb_list_array">
+        <item>关闭</item>
+        <item>单色</item>
+        <item>全色</item>
+    </string-array>
+    <string-array name="screensaver_set_array">
+        <item>模拟时钟</item>
+        <item>极简时钟</item>
+        <item>熄屏</item>
+    </string-array>
+    <array name="tailgateSeekBarColor">
+        <item>#ad39aeb2</item>
+        <item>#8f39aeb2</item>
+        <item>#0039aeb2</item>
+        <item>#0039aeb2</item>
+    </array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="voice_tab">
+        <item>音量</item>
+        <item>音效</item>
+    </string-array>
+    <array name="wel_array">
+        <item>@mipmap/keji_00</item>
+        <item>@mipmap/keji_01</item>
+        <item>@mipmap/keji_02</item>
+        <item>@mipmap/keji_03</item>
+        <item>@mipmap/keji_04</item>
+        <item>@mipmap/keji_05</item>
+        <item>@mipmap/keji_06</item>
+        <item>@mipmap/keji_07</item>
+        <item>@mipmap/keji_08</item>
+        <item>@mipmap/keji_09</item>
+        <item>@mipmap/keji_10</item>
+        <item>@mipmap/keji_11</item>
+        <item>@mipmap/keji_12</item>
+        <item>@mipmap/keji_13</item>
+        <item>@mipmap/keji_14</item>
+        <item>@mipmap/keji_15</item>
+        <item>@mipmap/keji_16</item>
+        <item>@mipmap/keji_17</item>
+        <item>@mipmap/keji_18</item>
+        <item>@mipmap/keji_19</item>
+        <item>@mipmap/keji_20</item>
+        <item>@mipmap/keji_21</item>
+        <item>@mipmap/keji_22</item>
+        <item>@mipmap/keji_23</item>
+        <item>@mipmap/keji_24</item>
+        <item>@mipmap/keji_25</item>
+        <item>@mipmap/keji_26</item>
+        <item>@mipmap/keji_27</item>
+        <item>@mipmap/keji_28</item>
+        <item>@mipmap/keji_29</item>
+        <item>@mipmap/keji_30</item>
+        <item>@mipmap/keji_31</item>
+        <item>@mipmap/keji_32</item>
+        <item>@mipmap/keji_33</item>
+        <item>@mipmap/keji_34</item>
+    </array>
+    <array name="x_wel_array">
+        <item>@mipmap/zhuanchang_x_1</item>
+        <item>@mipmap/zhuanchang_x_2</item>
+        <item>@mipmap/zhuanchang_x_3</item>
+        <item>@mipmap/zhuanchang_x_4</item>
+        <item>@mipmap/zhuanchang_x_5</item>
+        <item>@mipmap/zhuanchang_x_6</item>
+        <item>@mipmap/zhuanchang_x_7</item>
+        <item>@mipmap/zhuanchang_x_8</item>
+        <item>@mipmap/zhuanchang_x_9</item>
+        <item>@mipmap/zhuanchang_x_10</item>
+        <item>@mipmap/zhuanchang_x_11</item>
+        <item>@mipmap/zhuanchang_x_12</item>
+        <item>@mipmap/zhuanchang_x_13</item>
+        <item>@mipmap/zhuanchang_x_14</item>
+        <item>@mipmap/zhuanchang_x_15</item>
+        <item>@mipmap/zhuanchang_x_16</item>
+        <item>@mipmap/zhuanchang_x_17</item>
+        <item>@mipmap/zhuanchang_x_18</item>
+        <item>@mipmap/zhuanchang_x_19</item>
+        <item>@mipmap/zhuanchang_x_20</item>
+        <item>@mipmap/zhuanchang_x_21</item>
+        <item>@mipmap/zhuanchang_x_22</item>
+        <item>@mipmap/zhuanchang_x_23</item>
+        <item>@mipmap/zhuanchang_x_24</item>
+        <item>@mipmap/zhuanchang_x_25</item>
+        <item>@mipmap/zhuanchang_x_26</item>
+        <item>@mipmap/zhuanchang_x_27</item>
+        <item>@mipmap/zhuanchang_x_28</item>
+        <item>@mipmap/zhuanchang_x_29</item>
+        <item>@mipmap/zhuanchang_x_30</item>
+        <item>@mipmap/zhuanchang_x_31</item>
+        <item>@mipmap/zhuanchang_x_32</item>
+        <item>@mipmap/zhuanchang_x_33</item>
+        <item>@mipmap/zhuanchang_x_34</item>
+        <item>@mipmap/zhuanchang_x_35</item>
+        <item>@mipmap/zhuanchang_x_36</item>
+        <item>@mipmap/zhuanchang_x_37</item>
+        <item>@mipmap/zhuanchang_x_38</item>
+        <item>@mipmap/zhuanchang_x_39</item>
+        <item>@mipmap/zhuanchang_x_40</item>
+        <item>@mipmap/zhuanchang_x_41</item>
+        <item>@mipmap/zhuanchang_x_42</item>
+    </array>
+</resources>

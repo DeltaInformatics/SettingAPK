@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/color_popup_window_text_selected_true_1" />
+    <item android:state_selected="false" android:color="@color/color_popup_window_text_selected_false_1" />
+</selector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:left="0.0px" android:top="0.0px" android:right="0.0px" android:bottom="4.0px" />
+            <solid android:color="#14000000" />
+            <corners android:radius="12.0px" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="false">
+                <shape android:shape="rectangle">
+                    <gradient android:startColor="@color/color_tailgate_button_bg_color_start" android:endColor="@color/color_tailgate_button_bg_color_end" android:angle="270.0" />
+                    <corners android:radius="8.0px" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <gradient android:startColor="@color/color_normal_button_pressed_start_color_background" android:endColor="@color/color_normal_button_pressed_end_color_background" android:angle="270.0" />
+                    <corners android:radius="8.0px" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

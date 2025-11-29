@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/autolink/adaptermanager/car/ALCarManager$CarSpeedListener;
+.super Ljava/lang/Object;
+.source "ALCarManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/autolink/adaptermanager/car/ALCarManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "CarSpeedListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onCarSpeedChanged(FI)V
+.end method

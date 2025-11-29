@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_interconnecting_device_0" android:paddingBottom="@dimen/dp104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp920" android:layout_height="@dimen/dp136" android:layout_marginTop="@dimen/dp12">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:id="@id/connectTit" android:layout_width="@dimen/dp260" android:layout_height="@dimen/dp40" android:layout_marginTop="@dimen/dp20" android:text="@string/interconnecting_device" />
+                <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/open_hicar" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="@dimen/dp304" android:layout_height="@dimen/dp80" android:text="@string/open_hicar" android:layout_marginEnd="@dimen/dp40" android:layout_toStartOf="@id/add_devices" />
+                <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/add_devices" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="@dimen/dp282" android:layout_height="@dimen/dp80" android:text="@string/add_devices" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/color_dividing_line" android:layout_width="@dimen/dp920" android:layout_height="@dimen/dp1" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_devices_link" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/devices_null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp120" android:layout_marginStart="@dimen/dp360">
+                <ImageView android:id="@id/ivBg" android:layout_width="@dimen/dp200" android:layout_height="@dimen/dp200" android:src="@drawable/ic_devices_link_null" />
+                <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_storage_space_text" android:layout_width="wrap_content" android:layout_height="@dimen/dp41" android:layout_marginTop="@dimen/dp40" android:text="@string/no_devices" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

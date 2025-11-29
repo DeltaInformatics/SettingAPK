@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/popu_seat_mode_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/normal_dialog_background" android:layout_width="760.0px" android:layout_height="468.0px">
+        <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/title" android:layout_width="486.0px" android:layout_height="92.0px" android:layout_marginTop="32.0px" android:text="@string/setting_rear_mirror_memory_set_tip" android:layout_marginStart="137.0px" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/flSize" android:clickable="true" android:layout_width="432.0px" android:layout_height="240.0px" android:layout_marginTop="176.0px" android:layout_marginStart="164.0px">
+            <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/tabSizeWindow" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/CustomTabLayout" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/size_one" android:layout_width="432.0px" android:layout_height="80.0px" android:text="@string/setting_rear_mirror_memory_set_one" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/size_two" android:layout_width="432.0px" android:layout_height="80.0px" android:layout_marginTop="80.0px" android:text="@string/setting_rear_mirror_memory_set_two" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/size_three" android:layout_width="432.0px" android:layout_height="80.0px" android:layout_marginTop="160.0px" android:text="@string/setting_rear_mirror_memory_set_three" />
+        </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+    </RelativeLayout>
+</FrameLayout>

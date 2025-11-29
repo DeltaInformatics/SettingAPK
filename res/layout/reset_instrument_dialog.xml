@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flParentView" android:tag="layout/reset_instrument_dialog_0" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/smart_driving_active_safe_dialog_background" android:layout_width="760.0px" android:layout_height="444.0px">
+        <TextView android:textSize="32.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/smart_driving_active_safe_dialog_title" android:layout_width="664.0px" android:layout_height="56.0px" android:layout_marginLeft="48.0px" android:layout_marginTop="32.0px" android:text="@string/reset_instrument_title" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/smart_driving_active_safe_dialog_text" android:layout_width="664.0px" android:layout_height="wrap_content" android:layout_marginLeft="48.0px" android:layout_marginTop="104.0px" android:text="@string/reset_instrument_content" />
+        <com.autolink.hmi.carsettings.view.ALButton android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/smart_driving_active_safe_dialog_cancel_button" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="312.0px" android:layout_height="80.0px" android:layout_marginLeft="48.0px" android:layout_marginTop="316.0px" android:text="取消" />
+        <com.autolink.hmi.carsettings.view.ALButton android:textSize="28.0px" android:textColor="@color/color_active_safe_dialog_sure_button_text" android:gravity="center" android:id="@id/smart_driving_active_safe_dialog_sure_button" android:background="@drawable/smart_driving_active_safe_dialog_sure_button_background" android:layout_width="312.0px" android:layout_height="80.0px" android:layout_marginLeft="400.0px" android:layout_marginTop="316.0px" android:text="确定" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/color_dialog_sure_button_able_background_start_color_1" android:endColor="@color/color_dialog_sure_button_able_background_end_color_1" android:angle="270.0" />
+            <corners android:radius="12.0px" />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="12.0px" />
+        </shape>
+    </item>
+</selector>

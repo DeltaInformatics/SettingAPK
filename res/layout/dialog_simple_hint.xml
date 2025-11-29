@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="880.0px" android:minHeight="496.0px">
+        <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56.0px" android:layout_marginStart="56.0px" android:layout_marginEnd="56.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tvMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0px" android:layout_marginStart="56.0px" android:layout_marginEnd="56.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/tvKnown" android:layout_width="312.0px" android:layout_height="80.0px" android:layout_marginBottom="56.0px" android:text="@string/bt_known" />
+    </FrameLayout>
+</FrameLayout>

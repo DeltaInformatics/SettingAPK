@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_network_wifi_0" android:paddingTop="20.0px" android:paddingBottom="@dimen/dp104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="400.0px" android:layout_height="56.0px" android:layout_marginTop="@dimen/dp20">
+            <com.autolink.hmi.carsettings.view.LoadingImageView android:id="@id/iv_hotspot_loading" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@mipmap/loading" />
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swHotspot" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="16.0px" android:text="@string/hot" />
+        </LinearLayout>
+        <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" android:layout_marginTop="@dimen/dp40" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llyHotspot" android:visibility="gone" android:layout_width="920.0px" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="920.0px" android:layout_height="136.0px">
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hot_name" android:layout_centerVertical="true" style="@style/style_content_tv" />
+                <HorizontalScrollView android:id="@id/hsvHotName" android:scrollbars="none" android:layout_width="@dimen/dp556" android:layout_height="wrap_content" android:layout_marginRight="48.0px" android:fillViewport="true" android:layout_toLeftOf="@id/ivHotNameEdit" android:layout_centerVertical="true">
+                    <TextView android:textColor="@color/color_normal_text" android:ellipsize="end" android:gravity="end" android:id="@id/tvHotName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JETOUR-XXXX" android:maxLines="1" android:maxLength="32" style="@style/style_content_tv" />
+                </HorizontalScrollView>
+                <com.autolink.hmi.carsettings.view.ALButton android:id="@id/ivHotNameEdit" android:background="@mipmap/ic_comm_edit" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="920.0px" android:layout_height="136.0px">
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hot_password" android:layout_centerVertical="true" style="@style/style_content_tv" />
+                <HorizontalScrollView android:id="@id/hsvHotPassword" android:scrollbars="none" android:layout_width="@dimen/dp556" android:layout_height="wrap_content" android:layout_marginRight="48.0px" android:fillViewport="true" android:layout_toLeftOf="@id/ivHotPasswordEdit" android:layout_centerVertical="true">
+                    <TextView android:textColor="@color/color_normal_text" android:ellipsize="end" android:gravity="end" android:id="@id/tvHotPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JETOUR-XXXX" android:maxLines="1" android:maxLength="32" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+                </HorizontalScrollView>
+                <com.autolink.hmi.carsettings.view.ALButton android:id="@id/ivHotPasswordEdit" android:background="@mipmap/ic_comm_edit" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="920.0px" android:layout_height="120.0px">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="400.0px" android:layout_height="56.0px">
+                <com.autolink.hmi.carsettings.view.LoadingImageView android:id="@id/iv_wifi_loading" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@mipmap/loading" />
+                <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swWifi" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="16.0px" android:text="@string/wifi" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llyWifi" android:visibility="gone" android:layout_width="920.0px" android:layout_height="wrap_content">
+            <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" />
+            <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_storage_space_text" android:gravity="center_vertical" android:id="@id/tv_save_wifi" android:layout_width="wrap_content" android:layout_height="136.0px" android:text="@string/save_wifi" android:layout_centerVertical="true" />
+            <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rcSaveNetwork" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="920.0px" android:layout_height="136.0px">
+                <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_storage_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/can_network_title" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/ivAvailableNetworkRefresh" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:src="@mipmap/ic_comm_refresh" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rcAvailableNetwork" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

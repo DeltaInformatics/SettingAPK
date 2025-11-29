@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/dialog_switch_language_0" android:background="@color/dialog_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_group" android:background="@drawable/normal_dialog_background" android:paddingBottom="@dimen/dp56" android:layout_width="@dimen/dp760" android:layout_height="@dimen/dp354">
+        <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp75" android:text="@string/settings_language_switch_tip" android:layout_centerHorizontal="true" app:layout_constraintTop_toBottomOf="@id/connecting" style="@style/text_while_title_28_style" />
+        <ProgressBar android:id="@id/connecting" android:layout_width="@dimen/dp70" android:layout_height="@dimen/dp70" android:layout_marginTop="@dimen/dp50" android:indeterminateDrawable="@drawable/shape_wifi_connecting_progress_loading" android:layout_below="@id/title" android:layout_marginStart="@dimen/dp350" />
+    </RelativeLayout>
+</LinearLayout>

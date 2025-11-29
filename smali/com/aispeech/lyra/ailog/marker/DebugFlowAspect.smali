@@ -1,0 +1,503 @@
+.class public Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+.super Ljava/lang/Object;
+.source "DebugFlowAspect.java"
+
+
+# annotations
+.annotation runtime Lorg/aspectj/lang/annotation/Aspect;
+.end annotation
+
+
+# static fields
+.field private static synthetic ajc$initFailureCause:Ljava/lang/Throwable;
+
+.field public static final synthetic ajc$perSingletonInstance:Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    :try_start_0
+    invoke-static {}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$postClinit()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    sput-object v0, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$initFailureCause:Ljava/lang/Throwable;
+
+    :goto_0
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 24
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic ajc$inlineAccessMethod$com_aispeech_lyra_ailog_marker_DebugFlowAspect$com_aispeech_lyra_ailog_marker_DebugFlowAspect$enterMethod(Lorg/aspectj/lang/JoinPoint;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->enterMethod(Lorg/aspectj/lang/JoinPoint;)V
+
+    return-void
+.end method
+
+.method private static synthetic ajc$postClinit()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+
+    invoke-direct {v0}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;-><init>()V
+
+    sput-object v0, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$perSingletonInstance:Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+
+    return-void
+.end method
+
+.method private static asTag(Ljava/lang/Class;)Ljava/lang/String;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)",
+            "Ljava/lang/String;"
+        }
+    .end annotation
+
+    .line 126
+    invoke-virtual {p0}, Ljava/lang/Class;->isAnonymousClass()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 127
+    invoke-virtual {p0}, Ljava/lang/Class;->getEnclosingClass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->asTag(Ljava/lang/Class;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 129
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static aspectOf()Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$perSingletonInstance:Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
+
+    const-string v1, "com.aispeech.lyra.ailog.marker.DebugFlowAspect"
+
+    sget-object v2, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$initFailureCause:Ljava/lang/Throwable;
+
+    invoke-direct {v0, v1, v2}, Lorg/aspectj/lang/NoAspectBoundException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw v0
+.end method
+
+.method private static enterMethod(Lorg/aspectj/lang/JoinPoint;)V
+    .locals 6
+
+    .line 67
+    invoke-interface {p0}, Lorg/aspectj/lang/JoinPoint;->getSignature()Lorg/aspectj/lang/Signature;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/aspectj/lang/reflect/CodeSignature;
+
+    .line 69
+    invoke-interface {v0}, Lorg/aspectj/lang/reflect/CodeSignature;->getDeclaringType()Ljava/lang/Class;
+
+    move-result-object v1
+
+    .line 70
+    invoke-interface {v0}, Lorg/aspectj/lang/reflect/CodeSignature;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 71
+    invoke-interface {v0}, Lorg/aspectj/lang/reflect/CodeSignature;->getParameterNames()[Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 72
+    invoke-interface {p0}, Lorg/aspectj/lang/JoinPoint;->getArgs()[Ljava/lang/Object;
+
+    move-result-object p0
+
+    .line 74
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "Flow-"
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 75
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    const-string v5, "-"
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 76
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const/16 v4, 0x28
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    const/4 v2, 0x0
+
+    .line 77
+    :goto_0
+    array-length v4, p0
+
+    if-ge v2, v4, :cond_1
+
+    if-lez v2, :cond_0
+
+    const-string v4, ", "
+
+    .line 79
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 81
+    :cond_0
+    aget-object v4, v0, v2
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    const/16 v5, 0x3d
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 82
+    aget-object v4, p0, v2
+
+    invoke-static {v4}, Lcom/aispeech/lyra/ailog/marker/Strings;->toString(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    const/16 p0, 0x29
+
+    .line 84
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 86
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object p0
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    if-eq p0, v0, :cond_2
+
+    const-string p0, " [Thread:\""
+
+    .line 87
+    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    const-string v0, "\"]"
+
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 90
+    :cond_2
+    invoke-static {v1}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->asTag(Ljava/lang/Class;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p0, v0}, Lcom/aispeech/lyra/ailog/AILog;->v(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 93
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v0, 0x2
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 94
+    invoke-static {p0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method private static exitMethod(Lorg/aspectj/lang/JoinPoint;Ljava/lang/Object;J)V
+    .locals 4
+
+    .line 100
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+
+    .line 103
+    invoke-interface {p0}, Lorg/aspectj/lang/JoinPoint;->getSignature()Lorg/aspectj/lang/Signature;
+
+    move-result-object p0
+
+    .line 105
+    invoke-interface {p0}, Lorg/aspectj/lang/Signature;->getDeclaringType()Ljava/lang/Class;
+
+    move-result-object v0
+
+    .line 106
+    invoke-interface {p0}, Lorg/aspectj/lang/Signature;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 107
+    instance-of v2, p0, Lorg/aspectj/lang/reflect/MethodSignature;
+
+    if-eqz v2, :cond_0
+
+    check-cast p0, Lorg/aspectj/lang/reflect/MethodSignature;
+
+    .line 108
+    invoke-interface {p0}, Lorg/aspectj/lang/reflect/MethodSignature;->getReturnType()Ljava/lang/Class;
+
+    move-result-object p0
+
+    sget-object v2, Ljava/lang/Void;->TYPE:Ljava/lang/Class;
+
+    if-eq p0, v2, :cond_0
+
+    const/4 p0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 110
+    :goto_0
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "Flow-end-"
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 111
+    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v3, "-"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    .line 112
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, " ["
+
+    .line 113
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    .line 114
+    invoke-virtual {v1, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object p2
+
+    const-string p3, "ms]"
+
+    .line 115
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p2
+
+    if-eqz p0, :cond_1
+
+    const-string p0, " = "
+
+    .line 118
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 119
+    invoke-static {p1}, Lcom/aispeech/lyra/ailog/marker/Strings;->toString(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 122
+    :cond_1
+    invoke-static {v0}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->asTag(Ljava/lang/Class;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p0, p1}, Lcom/aispeech/lyra/ailog/AILog;->v(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static hasAspect()Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$perSingletonInstance:Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+
+# virtual methods
+.method public constructor()V
+    .locals 0
+    .annotation runtime Lorg/aspectj/lang/annotation/Pointcut;
+        value = "execution(@DebugPerformance *.new(..)) || constructorInsideAnnotatedType()"
+    .end annotation
+
+    return-void
+.end method
+
+.method public constructorInsideAnnotatedType()V
+    .locals 0
+    .annotation runtime Lorg/aspectj/lang/annotation/Pointcut;
+        value = "execution(!synthetic *.new(..)) && withinAnnotatedClass()"
+    .end annotation
+
+    return-void
+.end method
+
+.method public logAndExecute(Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Throwable;
+        }
+    .end annotation
+
+    .annotation runtime Lorg/aspectj/lang/annotation/Around;
+        value = "method() || constructor()"
+    .end annotation
+
+    .line 54
+    invoke-static {p1}, Lcom/aispeech/lyra/ailog/marker/DebugFlowAspect;->ajc$inlineAccessMethod$com_aispeech_lyra_ailog_marker_DebugFlowAspect$com_aispeech_lyra_ailog_marker_DebugFlowAspect$enterMethod(Lorg/aspectj/lang/JoinPoint;)V
+
+    .line 57
+    invoke-interface {p1}, Lorg/aspectj/lang/ProceedingJoinPoint;->proceed()Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public method()V
+    .locals 0
+    .annotation runtime Lorg/aspectj/lang/annotation/Pointcut;
+        value = "execution(@DebugPerformance * *(..)) || methodInsideAnnotatedType()"
+    .end annotation
+
+    return-void
+.end method
+
+.method public methodInsideAnnotatedType()V
+    .locals 0
+    .annotation runtime Lorg/aspectj/lang/annotation/Pointcut;
+        value = "execution(!synthetic * *(..)) && withinAnnotatedClass()"
+    .end annotation
+
+    return-void
+.end method
+
+.method public withinAnnotatedClass()V
+    .locals 0
+    .annotation runtime Lorg/aspectj/lang/annotation/Pointcut;
+        value = "within(@DebugPerformance *)"
+    .end annotation
+
+    return-void
+.end method

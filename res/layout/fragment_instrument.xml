@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_instrument_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="1920.0px" android:layout_height="976.0px" android:src="@drawable/ic_activity_bg" android:scaleType="fitXY" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="344.0px" android:layout_marginTop="80.0px">
+        <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/instrumentScrollView" android:layout_width="fill_parent" android:layout_height="896.0px" android:layout_marginLeft="30.0px" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0px" android:text="仪表主题模式" />
+                    <ImageView android:id="@id/instrument_mode1_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_sz" />
+                    <FrameLayout android:id="@id/instrument_mode1_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="112.0px" />
+                    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode1_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="179.0px" android:layout_marginTop="302.0px" android:text="数字仪表" />
+                    <ImageView android:id="@id/instrument_mode2_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_jd" />
+                    <FrameLayout android:id="@id/instrument_mode2_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="112.0px" />
+                    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode2_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="672.0px" android:layout_marginTop="302.0px" android:text="经典仪表" />
+                    <ImageView android:id="@id/instrument_mode3_img" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="986.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_dh" />
+                    <FrameLayout android:id="@id/instrument_mode3_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="986.0px" android:layout_marginTop="112.0px" />
+                    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode3_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="1165.0px" android:layout_marginTop="302.0px" android:text="导航模式" />
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="377.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0px" android:text="仪表字体" />
+                    <ImageView android:id="@id/jetour_type_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="121.0px" android:src="@drawable/ic_jetour_type" />
+                    <FrameLayout android:id="@id/jetour_type_img_frame" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="121.0px" />
+                    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:gravity="center_horizontal" android:id="@id/jetour_type_text" android:layout_width="453.0px" android:layout_height="wrap_content" android:layout_marginTop="323.0px" android:text="@string/setting_instrument_type_name_jetour_type" />
+                    <ImageView android:id="@id/jetour_type_dashboard_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="121.0px" android:src="@drawable/ic_jetour_type_dashboard" />
+                    <FrameLayout android:id="@id/jetour_type_dashboard_img_frame" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="121.0px" />
+                    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:gravity="center_horizontal" android:id="@id/jetour_type_dashboard_text" android:layout_width="453.0px" android:layout_height="wrap_content" android:layout_marginLeft="493.0px" android:layout_marginTop="323.0px" android:text="@string/setting_instrument_type_name_jetour_type_dashboard" />
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="391.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/instrumentBackLightProgressBar" android:layout_width="946.0px" android:layout_height="80.0px" android:layout_marginLeft="-20.0px" android:layout_marginTop="40.0px" />
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/instrumentDrivingTimeProgressBar" android:layout_width="946.0px" android:layout_height="80.0px" android:layout_marginLeft="-20.0px" android:layout_marginTop="40.0px" />
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/instrumentOverSpeedLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/instrumentOverSpeedProgressBar" android:layout_width="946.0px" android:layout_height="80.0px" android:layout_marginLeft="-20.0px" android:layout_marginTop="40.0px" />
+                    </FrameLayout>
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px" android:text="报警音调" />
+                    <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/flWarning" android:background="@drawable/instrument_recycler_list_background" android:layout_width="720.0px" android:layout_height="80.0px" android:layout_marginTop="112.0px">
+                        <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/tabWindowWarning" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabIndicator="@drawable/tab_indicator_bg" style="@style/CustomTabLayout" />
+                        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text1" android:layout_width="240.0px" android:layout_height="80.0px" android:text="高" />
+                        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text2" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="240.0px" android:text="中" />
+                        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text3" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="480.0px" android:text="低" />
+                    </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+                    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="232.0px" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.ALButton android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/instrumentFactoryResetButton" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="453.0px" android:layout_height="80.0px" android:layout_marginTop="42.0px" android:text="@string/setting_instrument_factory_reset" />
+                    <FrameLayout android:background="@null" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+                </FrameLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</FrameLayout>

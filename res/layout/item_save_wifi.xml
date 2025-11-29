@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="920.0px" android:layout_height="136.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_01" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv_connect_ok" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@mipmap/comm_correct" />
+    </FrameLayout>
+    <TextView android:textColor="@color/color_normal_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="iPhone 14" android:maxLines="1" android:layout_toLeftOf="@id/ivShowWifi" android:layout_toRightOf="@id/fl_01" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp40" style="@style/style_content_tv" />
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/ivShowWifi" android:background="@mipmap/comm_delete" android:clickable="true" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

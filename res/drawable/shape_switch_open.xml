@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:height="40.0px" android:width="74.0px" />
+            <corners android:radius="49.0px" />
+            <gradient android:startColor="@color/skin_button_gradient_top_color" android:endColor="@color/skin_button_gradient_bottom_color" android:angle="180.0" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="40.0px" android:width="74.0px">
+        <bitmap android:src="@drawable/ic_switch_button_cycle_shadow" />
+    </item>
+    <item android:gravity="center_vertical" android:height="36.0px" android:width="36.0px" android:left="36.0px" android:right="2.0px">
+        <bitmap android:src="@drawable/ic_switch_button_cycle" />
+    </item>
+</layer-list>

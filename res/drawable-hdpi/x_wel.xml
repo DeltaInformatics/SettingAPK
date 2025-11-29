@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_1" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_2" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_3" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_4" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_5" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_6" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_7" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_8" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_9" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_10" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_11" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_12" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_13" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_14" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_15" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_16" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_17" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_18" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_19" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_20" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_21" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_22" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_23" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_24" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_25" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_26" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_27" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_28" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_29" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_30" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_31" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_32" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_33" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_34" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_35" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_36" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_37" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_38" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_39" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_40" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_41" />
+    <item android:duration="30" android:drawable="@mipmap/zhuanchang_x_42" />
+</animation-list>

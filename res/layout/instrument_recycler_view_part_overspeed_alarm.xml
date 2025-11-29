@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/instrumentOverSpeedLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/instrumentOverSpeedProgressBar" android:background="@null" android:layout_width="946.0px" android:layout_height="160.0px" android:layout_marginLeft="-20.0px" android:maxHeight="80.0px" android:max="28" android:progress="0" android:progressDrawable="@drawable/shine_mode_progress_background" android:thumb="@null" android:splitTrack="@null" android:min="0" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/overSpeedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0px" android:layout_marginTop="58.0px" android:text="@string/setting_instrument_over_speed_warning" />
+        <com.autolink.hmi.carsettings.view.CustomFontTextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/instrumentOverSpeedProgressBarText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150.0px" android:layout_marginTop="60.0px" android:text="@string/setting_instrument_over_speed_warning_part1" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+</FrameLayout>

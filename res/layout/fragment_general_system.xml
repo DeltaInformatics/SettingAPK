@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_general_system_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp1298" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40">
+            <ImageView android:layout_width="@dimen/dp625" android:layout_height="@dimen/dp100" android:src="@drawable/ic_jetour_os" />
+            <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="@dimen/dp32" android:layout_marginTop="@dimen/dp112" android:text="@string/version_message_title" style="@style/style_content_tv" />
+            <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/soc_version" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp32" android:layout_marginTop="@dimen/dp115" android:layout_marginStart="@dimen/dp152" />
+            <ImageView android:id="@id/version_arrow" android:tag="binding_2" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginTop="@dimen/dp100" android:src="@drawable/ic_arrow_bottom" android:layout_marginStart="@dimen/dp1230" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/version_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:baselineAligned="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/mcu_version" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/system_version" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp100">
+                <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/tbox_version" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/meter_version" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp100">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tbox_iccid_version_title" />
+                    <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/tbox_iccid_version" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/sp24" android:textColor="@color/skin_color_menu_text_not_picked" android:id="@id/tbox_sn_version" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llyMove" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@drawable/shape_grey_corners_background" android:layout_width="@dimen/dp1298" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp30" app:layout_constraintStart_toStartOf="parent" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp18">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp419" android:layout_height="@dimen/dp100">
+                    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/sb_fast_launch_mode_layout" android:layout_width="@dimen/dp74" android:layout_height="@dimen/dp100">
+                        <com.autolink.hmi.carsettings.view.CustomSwitchButton android:layout_gravity="center_vertical" android:id="@id/sb_fast_launch_mode" android:layout_width="@dimen/dp74" android:layout_height="@dimen/dp40" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                    </FrameLayout>
+                    <TextView android:textColor="@color/color_normal_text" android:layout_gravity="center_vertical" android:text="@string/fast_launch_mode" android:layout_marginStart="@dimen/dp20" style="@style/style_content_tv" />
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/iv_fast_launch_mode" android:tag="binding_9" android:background="@drawable/ic_setting_assisted_driving_prompt_not_pressed" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dp45" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/drivingEntertainmentRestrictionMode" android:visibility="gone" android:layout_width="@dimen/dp419" android:layout_height="@dimen/dp100" android:layout_marginStart="@dimen/dp877">
+                    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/sb_driving_entertainment_restriction_mode_layout" android:layout_width="@dimen/dp74" android:layout_height="@dimen/dp100">
+                        <com.autolink.hmi.carsettings.view.CustomSwitchButton android:layout_gravity="center_vertical" android:id="@id/sb_driving_entertainment_restriction_mode" android:layout_width="@dimen/dp74" android:layout_height="@dimen/dp40" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                    </FrameLayout>
+                    <TextView android:textColor="@color/color_normal_text" android:text="@string/driving_entertainment_restriction_mode" android:layout_marginStart="@dimen/dp20" style="@style/style_content_tv" />
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/iv_driving_entertainment_restriction_mode" android:tag="binding_10" android:background="@drawable/ic_setting_assisted_driving_prompt_not_pressed" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dp45" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@drawable/shape_grey_corners_background" android:layout_width="@dimen/dp1298" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp18" app:layout_constraintStart_toStartOf="parent" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40">
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_title" style="@style/style_content_tv" />
+                <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_storage_space_text" android:id="@id/tv_storage_space" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="@dimen/dp32" android:layout_marginTop="@dimen/dp52" />
+                <SeekBar android:id="@id/disk_space_seekbar" android:tag="binding_12" android:layout_width="@dimen/dp1289" android:layout_height="@dimen/dp20" android:layout_marginTop="@dimen/dp127" android:max="1000" android:indeterminateOnly="false" android:progressDrawable="@drawable/shape_clear_seekbar" android:thumb="@null" android:thumbOffset="0.0px" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+                <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/one_click_clear" android:tag="binding_13" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="@dimen/dp400" android:layout_height="@dimen/dp80" android:text="@string/one_click_clear" android:layout_marginStart="@dimen/dp895" />
+            </RelativeLayout>
+            <View android:background="@drawable/shape_grey_corners_background" android:layout_width="@dimen/dp1298" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp40" app:layout_constraintStart_toStartOf="parent" />
+            <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/reset_car" android:tag="binding_14" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="@dimen/dp400" android:layout_height="@dimen/dp80" android:layout_marginTop="@dimen/dp40" android:text="@string/reset_car_title" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

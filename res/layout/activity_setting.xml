@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flPrentView" android:tag="layout/activity_setting_0" android:background="@drawable/ic_activity_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/mKanziFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_marginTop="92.0px">
+        <ImageView android:visibility="gone" android:layout_width="320.0px" android:layout_height="fill_parent" android:src="@drawable/ic_menus_bg" android:scaleType="fitXY" />
+        <RelativeLayout android:layout_width="320.0px" android:layout_height="880.0px">
+            <RelativeLayout android:id="@id/llyBg" android:visibility="gone" android:layout_width="320.0px" android:layout_height="88.0px" android:layout_marginTop="5.0px">
+                <View android:background="@drawable/shape_title_selected_bg" android:layout_width="320.0px" android:layout_height="88.0px" />
+                <View android:background="@color/skin_title_bg_gradient_left_color" android:layout_width="4.0px" android:layout_height="88.0px" />
+            </RelativeLayout>
+            <ListView android:id="@id/listView" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="310.0px" android:layout_height="880.0px" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:overScrollMode="never" android:layout_marginEnd="@dimen/dp10" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

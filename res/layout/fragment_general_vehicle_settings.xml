@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_general_vehicle_settings_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llCarCode" android:layout_width="@dimen/dp408" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/car_code_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvCodeTitle" android:layout_weight="1.0" style="@style/style_content_tv" />
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/ivEditCarCode" android:tag="binding_1" android:background="@drawable/ic_comm_edit" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llCarSN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp406" android:layout_marginStart="@dimen/dp134" app:layout_constraintBottom_toBottomOf="@id/llCarCode" app:layout_constraintLeft_toRightOf="@id/llCarCode" app:layout_constraintTop_toTopOf="@id/llCarCode">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/carframe_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvCarSN" android:tag="binding_2" style="@style/style_content_tv" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llCarMaintain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp108" app:layout_constraintBottom_toBottomOf="@id/llCarCode" app:layout_constraintRight_toRightOf="@id/line" app:layout_constraintTop_toTopOf="@id/llCarCode">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/until_next_maintenanc" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvUntilNextMaintenanc" android:tag="binding_3" android:layout_weight="1.0" style="@style/style_content_tv" />
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@drawable/shape_grey_corners_background" android:layout_width="@dimen/dp1298" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp40" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llCarCode" />
+    <RelativeLayout android:id="@id/rl_month_use" android:layout_width="@dimen/dp408" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/line">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/month_use_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvMonthUse" android:tag="binding_4" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_group1" android:layout_width="@dimen/dp392" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="@id/llCarSN" app:layout_constraintTop_toTopOf="@id/rl_month_use">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/voice_state_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvVoiceState" android:tag="binding_5" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_group2" android:layout_width="@dimen/dp408" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_month_use">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/sim_month_voice_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvSimMonthVoice" android:tag="binding_6" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_group3" android:layout_width="@dimen/dp392" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" app:layout_constraintLeft_toLeftOf="@id/llCarSN" app:layout_constraintTop_toBottomOf="@id/rl_group1">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/apn_state_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvApnState" android:tag="binding_7" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/dp392" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" app:layout_constraintLeft_toLeftOf="@id/llCarSN" app:layout_constraintTop_toBottomOf="@id/rl_group2">
+        <TextView android:textColor="@color/color_normal_text" android:text="@string/net_server_state_title" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:id="@id/tvNetServerState" android:tag="binding_8" android:layout_alignParentEnd="true" style="@style/style_content_tv" />
+    </RelativeLayout>
+    <ImageView android:id="@id/jt_code" android:layout_width="@dimen/dp100" android:layout_height="@dimen/dp100" android:layout_marginTop="@dimen/dp40" android:src="@drawable/jtcode" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_group2" />
+    <TextView android:textSize="@dimen/sp24" android:textColor="@color/color_menu_text_not_picked" android:gravity="center_vertical" android:layout_width="@dimen/dp290" android:layout_height="@dimen/dp100" android:text="@string/jt_code_msg" android:lineSpacingExtra="@dimen/dp5" android:layout_marginStart="@dimen/dp34" app:layout_constraintBottom_toBottomOf="@id/jt_code" app:layout_constraintStart_toEndOf="@id/jt_code" app:layout_constraintTop_toTopOf="@id/jt_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@mipmap/keji_00" />
+    <item android:duration="20" android:drawable="@mipmap/keji_01" />
+    <item android:duration="20" android:drawable="@mipmap/keji_02" />
+    <item android:duration="20" android:drawable="@mipmap/keji_03" />
+    <item android:duration="20" android:drawable="@mipmap/keji_04" />
+    <item android:duration="20" android:drawable="@mipmap/keji_05" />
+    <item android:duration="20" android:drawable="@mipmap/keji_06" />
+    <item android:duration="20" android:drawable="@mipmap/keji_07" />
+    <item android:duration="20" android:drawable="@mipmap/keji_08" />
+    <item android:duration="20" android:drawable="@mipmap/keji_09" />
+    <item android:duration="20" android:drawable="@mipmap/keji_10" />
+    <item android:duration="20" android:drawable="@mipmap/keji_11" />
+    <item android:duration="20" android:drawable="@mipmap/keji_12" />
+    <item android:duration="20" android:drawable="@mipmap/keji_13" />
+    <item android:duration="20" android:drawable="@mipmap/keji_14" />
+    <item android:duration="20" android:drawable="@mipmap/keji_15" />
+    <item android:duration="20" android:drawable="@mipmap/keji_16" />
+    <item android:duration="20" android:drawable="@mipmap/keji_17" />
+    <item android:duration="20" android:drawable="@mipmap/keji_18" />
+    <item android:duration="20" android:drawable="@mipmap/keji_19" />
+    <item android:duration="20" android:drawable="@mipmap/keji_20" />
+    <item android:duration="20" android:drawable="@mipmap/keji_21" />
+    <item android:duration="20" android:drawable="@mipmap/keji_22" />
+    <item android:duration="20" android:drawable="@mipmap/keji_23" />
+    <item android:duration="20" android:drawable="@mipmap/keji_24" />
+    <item android:duration="20" android:drawable="@mipmap/keji_25" />
+    <item android:duration="20" android:drawable="@mipmap/keji_26" />
+    <item android:duration="20" android:drawable="@mipmap/keji_27" />
+    <item android:duration="20" android:drawable="@mipmap/keji_28" />
+    <item android:duration="20" android:drawable="@mipmap/keji_29" />
+    <item android:duration="20" android:drawable="@mipmap/keji_30" />
+    <item android:duration="20" android:drawable="@mipmap/keji_31" />
+    <item android:duration="20" android:drawable="@mipmap/keji_32" />
+    <item android:duration="20" android:drawable="@mipmap/keji_33" />
+    <item android:duration="20" android:drawable="@mipmap/keji_34" />
+</animation-list>

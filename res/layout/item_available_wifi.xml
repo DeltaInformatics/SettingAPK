@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="920.0px" android:layout_height="136.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@mipmap/loading" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/color_normal_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_toLeftOf="@id/ivLock" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true" style="@style/style_content_tv" />
+    <ImageView android:id="@id/ivLock" android:visibility="visible" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="48.0px" android:src="@mipmap/ic_common_lock" android:layout_toLeftOf="@id/ivShowWifi" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ivShowWifi" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@drawable/level_wifi_signal" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingHorizontal="9.0px" android:paddingVertical="7.0px" />
+    <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

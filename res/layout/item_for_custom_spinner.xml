@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="384.0px" android:layout_height="272.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/flAmbientLightingSpinner" android:background="@drawable/spinner_list_background" android:layout_width="384.0px" android:layout_height="240.0px">
+        <ImageView android:id="@id/ambientLightPickedButton" android:background="@drawable/selected_button_bg" android:layout_width="384.0px" android:layout_height="80.0px" />
+        <TextView android:textSize="24.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/spinner_window_button_1" android:layout_width="384.0px" android:layout_height="80.0px" android:text="@string/setting_ambient_lighting_breathing_mode_panchromatic" />
+        <TextView android:textSize="24.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/spinner_window_button_2" android:layout_width="384.0px" android:layout_height="80.0px" android:layout_marginTop="80.0px" android:text="@string/setting_ambient_lighting_breathing_mode_monochrome" />
+        <TextView android:textSize="24.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/spinner_window_button_3" android:layout_width="384.0px" android:layout_height="80.0px" android:layout_marginTop="160.0px" android:text="@string/setting_ambient_lighting_breathing_mode_close" />
+    </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+</FrameLayout>

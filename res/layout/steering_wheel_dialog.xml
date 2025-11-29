@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flPrentView" android:tag="layout/steering_wheel_dialog_0" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="1872.0px" android:layout_height="858.0px" android:layout_marginBottom="10.0px">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/steering_wheel_dialog_bg" android:scaleType="fitXY" />
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/kanziSteeringWheelBack" android:background="@drawable/icon_common_dialog_close" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="32.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="144.0px" android:layout_marginTop="39.0px" android:text="@string/setting_steering_wheel_title_text" />
+        <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="136.0px" android:layout_marginTop="128.0px">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button1" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton2_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button2" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0px">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton3_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button3" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0px">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton4_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button4" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0px">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton5_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button5" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="110.0px">
+                <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton7_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button6" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton8_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button7" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0px">
+                    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_radioButton9_img" android:background="@drawable/ic_seat_dialog_radiobutton" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="8.0px" android:text="@string/setting_steering_wheel_radio_button8" />
+                </FrameLayout>
+            </LinearLayout>
+        </RadioGroup>
+    </FrameLayout>
+</FrameLayout>

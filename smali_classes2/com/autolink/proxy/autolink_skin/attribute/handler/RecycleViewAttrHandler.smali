@@ -1,0 +1,101 @@
+.class public Lcom/autolink/proxy/autolink_skin/attribute/handler/RecycleViewAttrHandler;
+.super Ljava/lang/Object;
+.source "RecycleViewAttrHandler.java"
+
+# interfaces
+.implements Lcom/autolink/proxy/autolink_skin/attribute/ISkinAttrHandler;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 20
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public apply(Landroid/view/View;Lcom/autolink/proxy/autolink_skin/attribute/entity/SkinAttr;Lcom/autolink/proxy/autolink_skin/resource/IResourceManager;)V
+    .locals 0
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
+    if-nez p2, :cond_1
+
+    return-void
+
+    :cond_1
+    const-string p3, "RecyclerView"
+
+    .line 29
+    invoke-virtual {p2}, Lcom/autolink/proxy/autolink_skin/attribute/entity/SkinAttr;->getAttrName()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-nez p2, :cond_2
+
+    return-void
+
+    .line 32
+    :cond_2
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object p2
+
+    const-string p3, ".widget.RecyclerView"
+
+    invoke-virtual {p2, p3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result p2
+
+    if-nez p2, :cond_3
+
+    return-void
+
+    .line 35
+    :cond_3
+    check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
+
+    .line 37
+    invoke-static {p1}, Lcom/autolink/proxy/autolink_skin/utils/ReflectUtils;->reflect(Ljava/lang/Object;)Lcom/autolink/proxy/autolink_skin/utils/ReflectUtils;
+
+    move-result-object p2
+
+    const-string p3, "mRecycler"
+
+    invoke-virtual {p2, p3}, Lcom/autolink/proxy/autolink_skin/utils/ReflectUtils;->field(Ljava/lang/String;)Lcom/autolink/proxy/autolink_skin/utils/ReflectUtils;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lcom/autolink/proxy/autolink_skin/utils/ReflectUtils;->get()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Landroidx/recyclerview/widget/RecyclerView$Recycler;
+
+    .line 38
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->clear()V
+
+    .line 40
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getRecycledViewPool()Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$RecycledViewPool;->clear()V
+
+    return-void
+.end method

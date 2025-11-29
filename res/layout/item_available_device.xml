@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="920.0px" android:layout_height="136.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/iv_cp" android:layout_toRightOf="@id/iv_icon" android:layout_marginStart="40.0px">
+        <TextView android:textColor="@color/color_normal_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerVertical="true" style="@style/style_content_tv" />
+        <TextView android:textSize="@dimen/sp24" android:textColor="@color/color_storage_space_text" android:id="@id/tvCpConnect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:text="@string/carplay_connect" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_cp" android:visibility="gone" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_toLeftOf="@id/iv_option" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp30" android:layout_marginEnd="@dimen/dp48" />
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/iv_option" android:background="@mipmap/comm_delete" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/color_dividing_line" android:layout_width="920.0px" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

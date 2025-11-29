@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/seatSaveParentView" android:background="@drawable/normal_dialog_background" android:layout_width="760.0px" android:layout_height="468.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.autolink.hmi.carsettings.view.ALButton android:id="@id/seatSaveDialogCancelButton" android:background="@drawable/icon_common_dialog_close" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="36.0px" android:layout_marginTop="36.0px" />
+    <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/seatDialogTitleTextView" android:layout_width="468.0px" android:layout_height="92.0px" android:layout_marginTop="56.0px" android:text="@string/setting_seat_driver_save_dialog_title_text" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="164.0px" android:layout_marginTop="176.0px">
+        <TextView android:textSize="28.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/seatTextShape1" android:background="@drawable/rear_mirror_button_background" android:layout_width="432.0px" android:layout_height="80.0px" android:text="@string/setting_seat_shape1" />
+        <TextView android:textSize="28.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/seatTextShape2" android:background="@drawable/rear_mirror_button_background" android:layout_width="432.0px" android:layout_height="80.0px" android:text="@string/setting_seat_shape2" />
+        <TextView android:textSize="28.0px" android:textColor="@color/pressed_button_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/seatTextShape3" android:background="@drawable/rear_mirror_button_background" android:layout_width="432.0px" android:layout_height="80.0px" android:text="@string/setting_seat_shape3" />
+    </LinearLayout>
+</FrameLayout>

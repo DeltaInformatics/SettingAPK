@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="#00b8b8b8" android:endColor="#00000000" android:angle="270.0" android:centerColor="#33000000" />
+            <corners android:radius="20.0px" />
+            <padding android:left="0.0px" android:top="0.0px" android:right="0.0px" android:bottom="8.0px" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_enabled="true">
+                <shape>
+                    <gradient android:startColor="@color/color_dialog_sure_button_able_background_start_color_1" android:endColor="@color/color_dialog_sure_button_able_background_end_color_1" android:angle="270.0" />
+                    <corners android:radius="12.0px" />
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape>
+                    <gradient android:startColor="@color/color_dialog_sure_button_enable_background_start_color_1" android:endColor="@color/color_dialog_sure_button_enable_background_end_color_1" android:angle="270.0" />
+                    <corners android:radius="12.0px" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

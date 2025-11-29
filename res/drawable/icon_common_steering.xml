@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="120.0dip" android:width="120.0dip" android:viewportWidth="120.0" android:viewportHeight="120.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h120v120h-120z" />
+        <path android:fillColor="@drawable/$icon_common_steering__0" android:pathData="M8,0L112,0A8,8 0,0 1,120 8L120,112A8,8 0,0 1,112 120L8,120A8,8 0,0 1,0 112L0,8A8,8 0,0 1,8 0z" />
+        <path android:fillColor="#ffffffff" android:pathData="M106.29,93.71C106.92,93.08 108,93.52 108,94.41V105C108,106.66 106.66,108 105,108H94.41C93.52,108 93.08,106.92 93.71,106.29L106.29,93.71Z" android:fillAlpha="0.6" android:fillType="evenOdd" />
+        <path android:fillColor="#ffffffff" android:pathData="M44.16,56.42C46.07,49.05 52.77,43.61 60.74,43.61C68.71,43.61 75.4,49.05 77.31,56.42H44.16ZM43.65,61.81C43.65,61.81 43.65,61.81 43.65,61.81H59.91H60.74H77.83C77.83,61.81 77.83,61.81 77.83,61.81H43.65ZM77.82,61.9L64.51,64.75C64.51,64.75 63.65,73.16 63.6,77.62C71.32,76.32 77.29,69.86 77.82,61.9ZM58.12,77.66C58.08,73.21 57.21,64.75 57.21,64.75L43.65,61.85C44.17,69.91 50.27,76.46 58.12,77.66ZM60.74,40.61C49.62,40.61 40.61,49.62 40.61,60.74C40.61,71.85 49.62,80.86 60.74,80.86C71.85,80.86 80.86,71.85 80.86,60.74C80.86,49.62 71.85,40.61 60.74,40.61Z" android:fillAlpha="0.8" android:fillType="evenOdd" />
+    </group>
+</vector>

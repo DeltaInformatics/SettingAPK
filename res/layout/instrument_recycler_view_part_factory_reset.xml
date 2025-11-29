@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="@color/factory_reset_button_text_color" android:gravity="center" android:id="@id/instrumentFactoryResetButton" android:background="@drawable/instrument_reset_button_bg" android:layout_width="453.0px" android:layout_height="80.0px" android:layout_marginTop="42.0px" android:text="@string/setting_instrument_factory_reset" />
+    <FrameLayout android:background="@null" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="161.0px" />
+</FrameLayout>

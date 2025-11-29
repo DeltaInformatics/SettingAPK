@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/dp320" android:layout_height="@dimen/dp112"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@mipmap/ic_menu_list_shandow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+        <View android:background="@drawable/shape_title_selected_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp88" android:layout_centerVertical="true" />
+        <View android:background="@color/skin_common_color" android:layout_width="@dimen/dp4" android:layout_height="@dimen/dp88" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_menu_text_group" android:id="@id/tv_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp88" android:layout_centerVertical="true" />
+</RelativeLayout>

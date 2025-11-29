@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flParentView" android:tag="layout/lock_dialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@color/transparent" android:layout_width="1872.0px" android:layout_height="858.0px" android:layout_marginBottom="10.0px">
+        <ImageView android:id="@id/ivLockBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/lock_title" android:layout_width="168.0px" android:layout_height="41.0px" android:layout_marginLeft="160.0px" android:layout_marginTop="128.0px" android:text="@string/setting_lock_out_car_lock_tips" />
+        <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/flLock" android:background="@drawable/lock_button_add_line_background" android:clickable="true" android:layout_width="558.0px" android:layout_height="80.0px" android:layout_marginLeft="160.0px" android:layout_marginTop="201.0px">
+            <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/tabWindow" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabIndicator="@drawable/tab_indicator_bg" style="@style/CustomTabLayout" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/lock_shine_beep" android:layout_width="186.0px" android:layout_height="80.0px" android:text="@string/setting_lock_shine_beep" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/lock_beep" android:layout_width="186.0px" android:layout_height="80.0px" android:layout_marginLeft="186.0px" android:text="@string/setting_lock_beep" />
+            <TextView android:textSize="28.0px" android:textColor="@color/lock_text_color" android:gravity="center" android:id="@id/lock_shine" android:layout_width="186.0px" android:layout_height="80.0px" android:layout_marginLeft="372.0px" android:text="@string/setting_lock_shine" />
+        </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160.0px" android:layout_marginTop="337.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swAutoLock" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="112.0px" android:layout_height="38.0px" android:layout_marginLeft="16.0px" android:text="@string/setting_lock_auto_lock" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160.0px" android:layout_marginTop="433.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swFireOffLock" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="112.0px" android:layout_height="38.0px" android:layout_marginLeft="16.0px" android:text="@string/setting_lock_fire_off_lock" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/welcomeModeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160.0px" android:layout_marginTop="529.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swWelcomeMode" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="112.0px" android:layout_height="38.0px" android:layout_marginLeft="16.0px" android:text="@string/setting_lock_welcome_mode" />
+        </LinearLayout>
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/lockBack" android:background="@drawable/icon_common_dialog_close" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="32.0px" />
+    </FrameLayout>
+</FrameLayout>

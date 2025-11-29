@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="12.0px" />
+            <solid android:color="@color/color_progress_bg" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal">
+            <shape>
+                <corners android:radius="12.0px" />
+                <gradient android:startColor="@color/skin_seekbar_bg_gradient_end_color" android:endColor="@color/skin_seekbar_bg_gradient_start_color" android:angle="180.0" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

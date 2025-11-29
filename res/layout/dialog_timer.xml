@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/llParentView" android:tag="layout/dialog_timer_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_group" android:background="@drawable/normal_dialog_background" android:paddingBottom="@dimen/dp56" android:layout_width="@dimen/dp760" android:layout_height="@dimen/dp316">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/only_content_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dp41">
+            <TextView android:textColor="@color/color_normal_text" android:id="@id/only_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:layout_marginBottom="@dimen/dp10" android:paddingStart="@dimen/dp20" android:paddingEnd="@dimen/sp20" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/style_content_tv" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/close_btn" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="@dimen/dp312" android:layout_height="@dimen/dp80" android:layout_marginLeft="@dimen/dp48" android:text="取消" />
+            <com.autolink.hmi.carsettings.view.ALButton android:textSize="@dimen/sp28" android:textColor="@color/white" android:gravity="center" android:id="@id/confirm_btn" android:background="@drawable/smart_driving_active_safe_dialog_sure_button_background" android:layout_width="@dimen/dp312" android:layout_height="@dimen/dp80" android:layout_marginRight="@dimen/dp48" android:text="确定" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

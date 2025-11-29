@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dp12" />
+    <gradient android:startColor="@color/color_btn_cancel_start_bg" android:endColor="@color/color_btn_cancel_end_bg" android:angle="270.0" />
+    <stroke android:width="@dimen/dp1" android:color="@color/check_btn_stroke_bg" />
+</shape>

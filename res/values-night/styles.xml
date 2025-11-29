@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CyanSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ff82a8ad</item>
+        <item name="skin_button_gradient_top_color">#ff57878c</item>
+        <item name="skin_common_color">#ffaff7ff</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ffa5cbcf</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ff57878c</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ff82a8ad</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ff57878c</item>
+        <item name="skin_text_color">#ffaff7ff</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffaff7ff</item>
+        <item name="skin_title_bg_gradient_middle_color">#22aff7ff</item>
+        <item name="skin_title_bg_gradient_start_color">#48aff7ff</item>
+    </style>
+    <style name="GoldSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ffb4a482</item>
+        <item name="skin_button_gradient_top_color">#ff82775f</item>
+        <item name="skin_common_color">#ffffe7b3</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ffb4a482</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ff82775f</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ff82775f</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ffb4a482</item>
+        <item name="skin_text_color">#ffffe7b3</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffffe7b3</item>
+        <item name="skin_title_bg_gradient_middle_color">#22e8d19e</item>
+        <item name="skin_title_bg_gradient_start_color">#48ffe7b3</item>
+    </style>
+    <style name="GreenSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ff6fb2a2</item>
+        <item name="skin_button_gradient_top_color">#ff448978</item>
+        <item name="skin_common_color">#ffb0feeb</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ff6fb2a2</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ff448978</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ff448978</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ff6fb2a2</item>
+        <item name="skin_text_color">#ffb0feeb</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffb0feeb</item>
+        <item name="skin_title_bg_gradient_middle_color">#16b0feeb</item>
+        <item name="skin_title_bg_gradient_start_color">#48b0feeb</item>
+    </style>
+    <style name="OrangeSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ffd2a284</item>
+        <item name="skin_button_gradient_top_color">#ffbd8865</item>
+        <item name="skin_common_color">#ffffc39e</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ffd2a284</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ffbd8865</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ffbd8865</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ffd2a284</item>
+        <item name="skin_text_color">#ffffc39e</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffffc39e</item>
+        <item name="skin_title_bg_gradient_middle_color">#16ffc39e</item>
+        <item name="skin_title_bg_gradient_start_color">#48ffc39e</item>
+    </style>
+    <style name="PurpleSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ffa17dbd</item>
+        <item name="skin_button_gradient_top_color">#ff745297</item>
+        <item name="skin_common_color">#ffd39cff</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ffa17dbd</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ff745297</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ff745297</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ffa17dbd</item>
+        <item name="skin_text_color">#ffd39cff</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffd39cff</item>
+        <item name="skin_title_bg_gradient_middle_color">#16d39cff</item>
+        <item name="skin_title_bg_gradient_start_color">#56d39cff</item>
+    </style>
+    <style name="RedSkinTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="skin_button_gradient_bottom_color">#ffa85c5c</item>
+        <item name="skin_button_gradient_top_color">#ff933838</item>
+        <item name="skin_common_color">#ffff4040</item>
+        <item name="skin_seekbar_bg_gradient_end_color">#ffa85c5c</item>
+        <item name="skin_seekbar_bg_gradient_start_color">#ff933838</item>
+        <item name="skin_seekbar_bg_storage_end_color">#ff933838</item>
+        <item name="skin_seekbar_bg_storage_start_color">#ffa85c5c</item>
+        <item name="skin_text_color">#ffff4040</item>
+        <item name="skin_title_bg_gradient_end_color">#00000000</item>
+        <item name="skin_title_bg_gradient_left_color">#ffff4040</item>
+        <item name="skin_title_bg_gradient_middle_color">#16ff4040</item>
+        <item name="skin_title_bg_gradient_start_color">#50ff4040</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark" />
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog" />
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog" />
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert" />
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth" />
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge" />
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar" />
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="Theme.VehicleSettings" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/content_bg</item>
+        <item name="colorPrimaryVariant">@color/transparent</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark" />
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface" />
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface" />
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
+    <style name="CustomRadioTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/seat_dialog_radiobutton_background</item>
+    </style>
+</resources>

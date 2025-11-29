@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_screen_0" android:paddingLeft="32.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/screensaver_set_title" style="@style/style_content_tv" />
+    <View android:id="@id/view_time_mn_bg" android:background="@drawable/skin_timer_image_bg" android:visibility="gone" android:layout_width="430.0px" android:layout_height="242.0px" android:layout_marginTop="40.0px" android:layout_below="@id/tv_title" />
+    <View android:id="@id/view_time_jj_bg" android:background="@drawable/skin_timer_image_bg" android:visibility="gone" android:layout_width="432.0px" android:layout_height="242.0px" android:layout_marginTop="40.0px" android:layout_toRightOf="@id/iv_time_mn" android:layout_below="@id/tv_title" android:layout_marginStart="39.0px" />
+    <ImageView android:id="@id/iv_time_mn" android:padding="2.0px" android:layout_width="430.0px" android:layout_height="240.0px" android:layout_marginTop="41.0px" android:src="@mipmap/ic_display_time_jj" android:layout_below="@id/tv_title" />
+    <ImageView android:id="@id/iv_time_jj" android:layout_width="430.0px" android:layout_height="240.0px" android:layout_marginTop="41.0px" android:src="@mipmap/ic_display_time_mn" android:layout_toRightOf="@id/iv_time_mn" android:layout_below="@id/tv_title" android:layout_marginStart="40.0px" />
+    <View android:background="@color/color_dividing_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="40.0px" android:layout_below="@id/iv_time_jj" android:layout_marginStart="8.0px" android:layout_marginEnd="97.0px" />
+    <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sb_light" android:layout_width="900.0px" android:layout_height="80.0px" android:layout_marginTop="80.0px" android:layout_below="@id/iv_time_jj" />
+    <View android:id="@id/vLightLine" android:background="@color/color_dividing_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="40.0px" android:layout_below="@id/sb_light" android:layout_marginStart="8.0px" android:layout_marginEnd="97.0px" />
+    <RelativeLayout android:background="@drawable/shape_radiogroup_bg" android:layout_width="501.0px" android:layout_height="80.0px" android:layout_marginTop="80.0px" android:layout_below="@id/sb_light">
+        <ImageView android:id="@id/iv_slide" android:background="@drawable/skin_shape_button_bg" android:layout_width="167.0px" android:layout_height="fill_parent" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_screen" android:layout_width="501.0px" android:layout_height="80.0px">
+            <RadioButton android:gravity="center" android:id="@id/rb_screen_daytime" android:background="@drawable/ic_light" android:layout_width="167.0px" android:layout_height="fill_parent" android:button="@null" />
+            <RadioButton android:gravity="center" android:id="@id/rb_screen_dark" android:background="@drawable/ic_dark" android:layout_width="167.0px" android:layout_height="fill_parent" android:button="@null" />
+            <RadioButton android:gravity="center" android:id="@id/rb_screen_auto" android:background="@color/transparent" android:layout_width="167.0px" android:layout_height="fill_parent" android:button="@null" style="@style/style_radiobutton_checked_text" />
+        </RadioGroup>
+    </RelativeLayout>
+    <TextView android:id="@id/tv_title_02" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0px" android:text="@string/change_theme_colors" android:layout_below="@id/sb_light" style="@style/style_content_tv" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="110.0px" android:layout_marginTop="16.0px" android:layout_below="@id/tv_title_02">
+        <ImageView android:id="@id/iv_set_color_01" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_01" />
+        <ImageView android:id="@id/iv_set_color_02" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_02" android:layout_marginStart="32.0px" />
+        <ImageView android:id="@id/iv_set_color_03" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_03" android:layout_marginStart="32.0px" />
+        <ImageView android:id="@id/iv_set_color_04" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_04" android:layout_marginStart="32.0px" />
+        <ImageView android:id="@id/iv_set_color_05" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_05" android:layout_marginStart="32.0px" />
+        <ImageView android:id="@id/iv_set_color_06" android:padding="23.0px" android:clickable="true" android:layout_width="110.0px" android:layout_height="110.0px" android:src="@mipmap/ic_screen_color_06" android:layout_marginStart="32.0px" />
+        <com.autolink.hmi.carsettings.view.ALButton android:gravity="center" android:id="@id/btn_apply" android:background="@drawable/ambient_lighting_button_background" android:layout_width="212.0px" android:layout_height="80.0px" android:button="@null" android:text="@string/display_apply" android:layout_marginStart="28.0px" android:elevation="@dimen/dp8" style="@style/style_content_tv" />
+    </LinearLayout>
+</RelativeLayout>

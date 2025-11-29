@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_unit_0" android:paddingLeft="32.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/setting_display_unit_tyre_pressure_unit" style="@style/text_while_title_28_style" />
+    <RelativeLayout android:background="@drawable/shape_radiogroup_bg" android:layout_width="750.0px" android:layout_height="80.0px" android:layout_marginTop="20.0dip">
+        <ImageView android:id="@id/iv_unit_tyre_press" android:background="@drawable/skin_shape_button_bg" android:layout_width="250.0px" android:layout_height="fill_parent" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_tyre_press_unit" android:layout_width="750.0px" android:layout_height="80.0px">
+            <RadioButton android:gravity="center" android:id="@id/rb_tyre_press_kpa" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_tyre_pressure_kap" android:layout_weight="1.0" style="@style/style_radiobutton_checked_text" />
+            <RadioButton android:gravity="center" android:id="@id/rb_tyre_press_bar" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_tyre_pressure_bar" android:layout_weight="1.0" style="@style/style_radiobutton_checked_text" />
+            <RadioButton android:gravity="center" android:id="@id/rb_tyre_press_psi" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_tyre_pressure_psi" android:layout_weight="1.0" style="@style/style_radiobutton_checked_text" />
+        </RadioGroup>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp30" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/setting_display_unit_car_speed_unit" style="@style/text_while_title_28_style" />
+    <RelativeLayout android:background="@drawable/shape_radiogroup_bg" android:visibility="gone" android:layout_width="750.0px" android:layout_height="80.0px" android:layout_marginTop="20.0dip">
+        <ImageView android:id="@id/iv_unit_speed" android:background="@drawable/skin_shape_button_bg" android:layout_width="375.0px" android:layout_height="fill_parent" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_speed_unit" android:layout_width="750.0px" android:layout_height="80.0px">
+            <RadioButton android:gravity="center" android:id="@id/rb_speed_kmh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_car_speed_kmh" android:layout_weight="1.0" style="@style/custom_radio" />
+            <RadioButton android:gravity="center" android:id="@id/rb_speed_mph" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_car_speed_mph" android:layout_weight="1.0" style="@style/custom_radio" />
+        </RadioGroup>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp30" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/setting_display_unit_temperature_unit" style="@style/text_while_title_28_style" />
+    <RelativeLayout android:background="@drawable/shape_radiogroup_bg" android:visibility="gone" android:layout_width="750.0px" android:layout_height="80.0px" android:layout_marginTop="20.0dip">
+        <ImageView android:id="@id/iv_unit_temperature" android:background="@drawable/skin_shape_button_bg" android:layout_width="375.0px" android:layout_height="fill_parent" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_temperature_unit" android:layout_width="750.0px" android:layout_height="80.0px">
+            <RadioButton android:gravity="center" android:id="@id/rb_temperature_c" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_temperature_c" android:layout_weight="1.0" style="@style/custom_radio" />
+            <RadioButton android:gravity="center" android:id="@id/rb_temperature_f" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/setting_display_unit_temperature_f" android:layout_weight="1.0" style="@style/custom_radio" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flBg" android:tag="layout/fragment_common_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="175.0px" android:layout_marginLeft="476.0px" android:layout_marginTop="737.0px">
+        <RelativeLayout android:id="@id/rl_seat" android:layout_width="120.0px" android:layout_height="175.0px" android:layout_marginRight="104.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/seat_button" android:background="@drawable/icon_common_seat" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_seat" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="120.0px" android:layout_height="175.0px" android:layout_marginRight="104.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/steering_button" android:background="@drawable/icon_common_steering" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_steering" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="120.0px" android:layout_height="175.0px" android:layout_marginRight="104.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/rear_mirror_button" android:background="@drawable/icon_common_rear_mirror" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_rear_mirror" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="120.0px" android:layout_height="175.0px" android:layout_marginRight="104.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/light_button" android:background="@drawable/icon_common_light" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_light" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="120.0px" android:layout_height="175.0px" android:layout_marginRight="104.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/lock_button" android:background="@drawable/icon_common_lock" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_lock" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="120.0px" android:layout_height="175.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:id="@id/windows_button" android:background="@drawable/icon_common_windows" android:layout_width="120.0px" android:layout_height="120.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_bottom_title" android:gravity="center" android:layout_width="120.0px" android:layout_height="wrap_content" android:layout_marginTop="140.0px" android:text="@string/setting_windows" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/tailgateLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1650.0px" android:layout_marginTop="327.0px">
+            <com.autolink.hmi.carsettings.view.CustomFontTextView android:textSize="50.0px" android:textStyle="bold" android:textColor="@color/color_tailgate_number_text_color" android:gravity="right" android:id="@id/leftTailgateSeekBarText" android:layout_width="wrap_content" android:layout_height="79.0px" android:text="100" />
+            <TextView android:textSize="24.0px" android:textStyle="bold" android:textColor="@color/color_tailgate_number_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="458.0px" android:layout_height="441.0px" android:layout_marginLeft="1300.0px" android:layout_marginTop="250.0px">
+            <ImageView android:layout_width="63.0px" android:layout_height="441.0px" android:layout_marginLeft="260.0px" android:src="@drawable/ic_left_tailgate_seek_bar_outside_line" />
+            <ImageView android:layout_width="309.0px" android:layout_height="1.0px" android:layout_marginLeft="165.0px" android:layout_marginTop="265.0px" android:scaleType="fitXY" />
+            <com.autolink.hmi.carsettings.view.HalfCircleGradientRingView android:id="@id/halfCircleGradientRingView" android:layout_width="1015.0px" android:layout_height="915.0px" android:layout_marginLeft="-260.0px" android:layout_marginTop="-190.0px" />
+            <View android:background="@color/color_normal_text" android:layout_width="309.0px" android:layout_height="1.0px" android:layout_marginLeft="170.0px" android:layout_marginTop="266.0px" />
+        </FrameLayout>
+        <TextView android:textSize="24.0px" android:textColor="@color/color_tailgate_normal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1635.5px" android:layout_marginTop="482.0px" android:text="@string/setting_tailgate_normal_text" />
+        <FrameLayout android:id="@id/tailgateButton" android:layout_width="206.0px" android:layout_height="80.0px" android:layout_marginLeft="1502.0px" android:layout_marginTop="593.0px">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tailgateButtonLayout" android:background="@drawable/tailgate_button_bg" android:visibility="invisible" android:layout_width="206.0px" android:layout_height="80.0px">
+                <ImageView android:id="@id/tailgateButtonImage" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@drawable/ic_tailgate_loading" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_tailgate_button_text_color" android:gravity="center" android:id="@id/tailgateButtonImageText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/setting_tailgate_sporting" />
+            </LinearLayout>
+            <TextView android:textSize="28.0px" android:textColor="@color/color_tailgate_button_text_color" android:gravity="center" android:id="@id/tailgateButtonText" android:background="@drawable/tailgate_button_bg" android:layout_width="206.0px" android:layout_height="80.0px" android:text="@string/setting_tailgate_open_or_close" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llClickContinueTips" android:visibility="gone" android:layout_width="212.0px" android:layout_height="35.0px" android:layout_marginLeft="1502.0px" android:layout_marginTop="680.0px">
+            <TextView android:textSize="24.0px" android:textColor="@color/color_storage_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_tailgate_tip_text4" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llLongClickTips" android:visibility="visible" android:layout_width="212.0px" android:layout_height="35.0px" android:layout_marginLeft="1502.0px" android:layout_marginTop="680.0px">
+            <TextView android:textSize="24.0px" android:textColor="@color/color_storage_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_tailgate_tip_text1" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_menu_text_is_picked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_tailgate_tip_text2" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_storage_space_text" android:id="@id/tvLongClickTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_tailgate_tip_text3" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

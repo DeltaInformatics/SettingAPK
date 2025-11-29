@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlParentView" android:tag="layout/dialog_common_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/normal_dialog_background" android:layout_width="760.0px" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textStyle="bold" android:textColor="@color/color_normal_text" android:gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0px" android:layout_marginHorizontal="48.0px" style="@style/style_content_tv" />
+        <TextView android:textColor="@color/color_normal_text" android:gravity="center_horizontal" android:id="@id/tv_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0px" android:layout_marginHorizontal="20.0px" style="@style/style_content_tv" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0px" android:layout_marginBottom="48.0px">
+            <com.autolink.hmi.carsettings.view.ALButton android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/bt_cancel" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:layout_width="312.0px" android:layout_height="80.0px" android:text="@string/cancel" android:layout_marginEnd="20.0px" style="@style/style_content_tv" />
+            <com.autolink.hmi.carsettings.view.ALButton android:textSize="28.0px" android:textColor="@color/white" android:gravity="center" android:id="@id/bt_confirm" android:background="@drawable/smart_driving_active_safe_dialog_sure_button_background" android:layout_width="312.0px" android:layout_height="80.0px" android:text="@string/sure" android:layout_marginStart="20.0px" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

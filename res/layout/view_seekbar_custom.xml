@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="80.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/seekBar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="80.0px" android:max="100" android:progress="0" android:thumb="@null" android:thumbOffset="0.0dip" android:splitTrack="false" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/iv" android:layout_width="48.0px" android:layout_height="48.0px" android:layout_marginLeft="36.0px" />
+        <ImageView android:id="@id/iv_mini" android:visibility="gone" android:layout_width="18.0px" android:layout_height="48.0px" />
+        <TextView android:textSize="28.0px" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:fontFamily="@font/type" />
+    </LinearLayout>
+</RelativeLayout>

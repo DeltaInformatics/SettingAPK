@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:height="42.0px" android:width="74.0px" />
+            <corners android:radius="20.0dip" />
+            <solid android:color="@color/color_switch_button_uncheck_color_1" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="36.0px" android:width="36.0px" android:left="3.0px">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

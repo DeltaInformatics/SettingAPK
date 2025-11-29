@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/spinner_list_background" android:layout_width="426.0px" android:layout_height="240.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="22.0px" android:textColor="@color/spinner_text_color" android:id="@id/popupWindow_lock_button1" android:background="@drawable/selector_for_custom_spinner" android:layout_width="426.0px" android:layout_height="80.0px" android:text="闪灯+鸣音" />
+    <Button android:textSize="22.0px" android:textColor="@color/spinner_text_color" android:id="@id/popupWindow_lock_button2" android:background="@drawable/selector_for_custom_spinner" android:layout_width="426.0px" android:layout_height="80.0px" android:layout_marginTop="80.0px" android:text="鸣音" />
+    <Button android:textSize="22.0px" android:textColor="@color/spinner_text_color" android:id="@id/popupWindow_lock_button3" android:background="@drawable/selector_for_custom_spinner" android:layout_width="426.0px" android:layout_height="80.0px" android:layout_marginTop="160.0px" android:text="闪灯" />
+</FrameLayout>

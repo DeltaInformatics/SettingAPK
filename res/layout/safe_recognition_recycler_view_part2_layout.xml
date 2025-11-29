@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/laneDepartureWarnLayout" android:layout_width="432.0px" android:layout_height="144.0px" android:layout_marginRight="32.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="56.0px">
+        <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/switchButton2" android:layout_width="74.0px" android:layout_height="40.0px" android:layout_marginTop="6.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/safeRecognitionRecyclerView_part2_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="90.0px" android:layout_marginTop="6.0px" android:text="@string/setting_assisted_driving_safe_warn_part2_text" />
+        <ImageView android:id="@id/safeRecognitionRecyclerView_part2_img" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="330.0px" android:src="@drawable/ic_setting_assisted_driving_prompt_not_pressed" />
+    </FrameLayout>
+    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/sensitivityTextView" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginTop="87.5px" android:text="@string/setting_assisted_driving_sensitivity" />
+    <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/recyclerViewPart2ButtonItem" android:background="@drawable/safe_warn_part1_all_bg" android:layout_width="290.0px" android:layout_height="56.0px" android:layout_marginLeft="108.0px" android:layout_marginTop="80.0px">
+        <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/tabWindowCDpicked" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabIndicator="@drawable/tab_indicator_bg" style="@style/CustomTabLayout" />
+        <TextView android:textSize="28.0px" android:textColor="@color/picked_button_text_color" android:gravity="center" android:id="@id/recyclerViewPart2Button1" android:layout_width="145.0px" android:layout_height="56.0px" android:text="高" android:stateListAnimator="@null" />
+        <TextView android:textSize="28.0px" android:textColor="@color/picked_button_text_color" android:gravity="center" android:id="@id/recyclerViewPart2Button2" android:layout_width="145.0px" android:layout_height="56.0px" android:layout_marginLeft="145.0px" android:text="低" android:stateListAnimator="@null" />
+    </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+    <ImageView android:layout_width="2.0px" android:layout_height="129.0px" android:layout_marginLeft="430.0px" android:layout_marginTop="8.0px" android:src="@mipmap/long_dividing_line" />
+</FrameLayout>

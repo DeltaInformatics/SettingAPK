@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/root_group" android:tag="layout/dialog_str_mode_instroduction_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/normal_dialog_background" android:clickable="true" android:layout_width="@dimen/dp760" android:layout_height="@dimen/dp278">
+        <ImageView android:id="@id/close" android:layout_width="@dimen/dp114" android:layout_height="@dimen/dp114" android:src="@drawable/vector_drawable_icon_close" android:paddingHorizontal="@dimen/dp46" android:paddingVertical="@dimen/dp46" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/sp32" android:textColor="@color/color_normal_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fast_launch_mode" app:layout_constraintBottom_toBottomOf="@id/close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/close" />
+        <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_width="@dimen/dp664" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp46" android:text="@string/str_mode_instroduction" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="373.0px" android:layout_height="144.0px" android:layout_marginRight="32.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/safeRecognitionBsdFl" android:layout_width="wrap_content" android:layout_height="56.0px">
+        <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/switchButton5" android:layout_width="74.0px" android:layout_height="40.0px" android:layout_marginTop="8.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/safeRecognitionRecyclerView_part4_text1" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="90.0px" android:layout_marginTop="6.0px" android:text="盲区监测" />
+        <ImageView android:id="@id/safeRecognitionRecyclerView_part4_img1" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="285.0px" android:src="@drawable/ic_setting_assisted_driving_prompt_not_pressed" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/doorOpenWarnLayout" android:layout_width="wrap_content" android:layout_height="56.0px" android:layout_marginTop="82.0px">
+        <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/switchButton6" android:layout_width="74.0px" android:layout_height="40.0px" android:layout_marginTop="8.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:id="@id/safeRecognitionRecyclerView_part4_text2" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="90.0px" android:layout_marginTop="6.0px" android:text="开门预警" />
+        <ImageView android:id="@id/safeRecognitionRecyclerView_part4_img2" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="285.0px" android:src="@drawable/ic_setting_assisted_driving_prompt_not_pressed" />
+    </FrameLayout>
+    <ImageView android:id="@id/linePart4" android:layout_width="2.0px" android:layout_height="129.0px" android:layout_marginLeft="371.0px" android:layout_marginTop="8.0px" android:src="@mipmap/long_dividing_line" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0px" android:text="仪表字体" />
+    <ImageView android:id="@id/jetour_type_img" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="121.0px" android:src="@drawable/ic_jetour_type" />
+    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/jetour_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="165.0px" android:layout_marginTop="323.0px" android:text="Jetour Type" />
+    <ImageView android:id="@id/jetour_type_dashboard_img" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="121.0px" android:src="@drawable/ic_jetour_type_dashboard" />
+    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/jetour_type_dashboard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="605.0px" android:layout_marginTop="323.0px" android:text="Jetour Type-Dashboard" />
+    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="391.0px" />
+</FrameLayout>

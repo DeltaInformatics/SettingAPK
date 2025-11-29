@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_volume_0" android:paddingTop="@dimen/dp128" android:paddingBottom="@dimen/dp104" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_speed_compensate" style="@style/style_content_tv" />
+        <RelativeLayout android:background="@drawable/shape_radiogroup_bg" android:layout_width="700.0px" android:layout_height="80.0px" android:layout_marginTop="40.0px">
+            <ImageView android:id="@id/iv_slide" android:background="@drawable/skin_shape_button_bg" android:layout_width="175.0px" android:layout_height="fill_parent" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg_volume_speed" android:layout_width="700.0px" android:layout_height="80.0px">
+                <RadioButton android:textColor="@color/selector_checked_text_color" android:gravity="center" android:id="@id/rb_volume_close" android:background="@color/transparent" android:layout_width="175.0px" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/volume_speed_compensate_close" style="@style/style_radiobutton_checked_text" />
+                <RadioButton android:textColor="@color/selector_checked_text_color" android:gravity="center" android:id="@id/rb_volume_low" android:background="@color/transparent" android:layout_width="175.0px" android:layout_height="fill_parent" android:button="@null" android:text="@string/volume_speed_compensate_low" style="@style/style_radiobutton_checked_text" />
+                <RadioButton android:textColor="@color/selector_checked_text_color" android:gravity="center" android:id="@id/rb_volume_middle" android:background="@color/transparent" android:layout_width="175.0px" android:layout_height="fill_parent" android:button="@null" android:text="@string/volume_speed_compensate_middle" style="@style/style_radiobutton_checked_text" />
+                <RadioButton android:textColor="@color/selector_checked_text_color" android:gravity="center" android:id="@id/rb_volume_high" android:background="@color/transparent" android:layout_width="175.0px" android:layout_height="fill_parent" android:button="@null" android:text="@string/volume_speed_compensate_high" style="@style/style_radiobutton_checked_text" />
+            </RadioGroup>
+        </RelativeLayout>
+        <View android:background="@color/color_dividing_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="40.0px" android:layout_marginStart="8.0px" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="120.0px">
+            <FrameLayout android:layout_width="200.0px" android:layout_height="56.0px">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swAJY" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:text="@string/volume_ajy" android:layout_marginStart="@dimen/dp16" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/rlXR" android:layout_width="wrap_content" android:layout_height="56.0px" android:layout_marginStart="182.0px">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swXR" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:text="@string/volume_xrtx" android:layout_marginStart="@dimen/dp16" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/rlFDJ" android:visibility="gone" android:layout_width="300.0px" android:layout_height="56.0px" android:layout_marginStart="140.0px">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swFDJ" android:layout_width="74.0px" android:layout_height="40.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+                    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="40.0px" android:text="@string/volume_fdj" android:layout_marginStart="@dimen/dp16" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View android:background="@color/color_dividing_line" android:layout_width="1440.0px" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px">
+            <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbPhone" android:layout_width="700.0px" android:layout_height="80.0px" />
+            <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbVoice" android:layout_width="700.0px" android:layout_height="80.0px" android:layout_marginStart="40.0px" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px">
+            <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbNavigation" android:layout_width="700.0px" android:layout_height="80.0px" />
+            <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbMedia" android:layout_width="700.0px" android:layout_height="80.0px" android:layout_marginStart="40.0px" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px" android:layout_marginBottom="40.0px">
+            <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbTarting" android:layout_width="700.0px" android:layout_height="80.0px" />
+            <LinearLayout android:orientation="vertical" android:layout_width="700.0px" android:layout_height="wrap_content" android:layout_marginStart="40.0px">
+                <com.autolink.hmi.carsettings.view.SeekBarCustomView android:id="@id/sbRingTone" android:visibility="gone" android:layout_width="700.0px" android:layout_height="80.0px" />
+                <com.autolink.hmi.carsettings.view.ALButton android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/tv_restoration" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:clickable="true" android:layout_width="280.0px" android:layout_height="88.0px" android:text="@string/restore_initial_value" android:layout_marginStart="18.0px" style="@style/style_content_tv" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.autolink.hmi.carsettings.view.ALButton android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/tv_restorations" android:background="@drawable/smart_driving_active_safe_dialog_cancel_button_background" android:clickable="true" android:layout_width="280.0px" android:layout_height="82.0px" android:layout_marginBottom="40.0px" android:text="@string/restore_initial_value" android:layout_marginStart="20.0px" style="@style/style_content_tv" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

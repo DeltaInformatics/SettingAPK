@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0px" android:text="仪表主题模式" />
+    <ImageView android:id="@id/instrument_mode1_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_sz" />
+    <FrameLayout android:id="@id/instrument_mode1_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginTop="112.0px" />
+    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode1_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="179.0px" android:layout_marginTop="302.0px" android:text="数字仪表" />
+    <ImageView android:id="@id/instrument_mode2_img" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_jd" />
+    <FrameLayout android:id="@id/instrument_mode2_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="493.0px" android:layout_marginTop="112.0px" />
+    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode2_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="672.0px" android:layout_marginTop="302.0px" android:text="经典仪表" />
+    <ImageView android:id="@id/instrument_mode3_img" android:background="@drawable/instrument_pick_mode_background" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="986.0px" android:layout_marginTop="112.0px" android:src="@drawable/ic_instrument_mode_dh" />
+    <FrameLayout android:id="@id/instrument_mode3_frame" android:background="@drawable/instrument_pick_mode_framelayout" android:layout_width="453.0px" android:layout_height="170.0px" android:layout_marginLeft="986.0px" android:layout_marginTop="112.0px" />
+    <TextView android:textSize="24.0px" android:textColor="@color/meter_mode_text_color" android:id="@id/instrument_mode3_text" android:layout_width="wrap_content" android:layout_height="28.0px" android:layout_marginLeft="1165.0px" android:layout_marginTop="302.0px" android:text="导航模式" />
+    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="377.0px" />
+</FrameLayout>

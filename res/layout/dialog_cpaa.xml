@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_container" android:tag="layout/dialog_cpaa_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:background="@drawable/shape_toast_bg" android:paddingTop="@dimen/dp15" android:paddingBottom="@dimen/dp15" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp70" android:paddingStart="@dimen/dp25" android:paddingEnd="@dimen/dp25">
+        <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:id="@id/tv_cpaa_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cpaa_new_device" />
+        <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/shape_check_true" android:layout_width="@dimen/dp240" android:layout_height="@dimen/dp80" android:text="@string/aa_text_switch" android:layout_marginStart="@dimen/dp30" />
+        <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/ambient_lighting_button_background" android:layout_width="@dimen/dp240" android:layout_height="@dimen/dp80" android:text="@string/aa_text_notnow" android:layout_marginStart="@dimen/dp30" />
+    </LinearLayout>
+</FrameLayout>

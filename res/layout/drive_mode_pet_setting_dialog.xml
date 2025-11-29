@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rlParentView" android:tag="layout/drive_mode_pet_setting_dialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/drive_mode_dialog_background" android:layout_width="910.0px" android:layout_height="400.0px">
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/driveModeDialogPetCloseButton" android:background="@drawable/ic_drive_mode_close_img_button" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="32.0px" />
+        <com.autolink.hmi.carsettings.view.TitleTextView android:textSize="32.0px" android:textColor="@color/color_normal_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0px" android:text="设置" app:textStrokeWidth="0.7" />
+        <FrameLayout android:id="@id/autoStartOrStopDrivingModeLayout" android:layout_width="202.0px" android:layout_height="wrap_content" android:layout_marginLeft="96.0px" android:layout_marginTop="120.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swAutoStartOrStop" android:layout_width="74.0px" android:layout_height="40.0px" android:layout_marginTop="4.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="90.0px" android:text="自动启停" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/brakeAssistLinkedDrivingModeLayout" android:layout_width="422.0px" android:layout_height="wrap_content" android:layout_marginLeft="96.0px" android:layout_marginTop="200.0px">
+            <com.autolink.hmi.carsettings.view.CustomSwitchButton android:id="@id/swSteeringAssistLinkedPetDrivingMode" android:layout_width="74.0px" android:layout_height="40.0px" android:layout_marginTop="4.0px" app:backgroundOff="@drawable/switch_off" app:backgroundOn="@drawable/switch_on" app:ball="@drawable/switch_ball" app:ballPadding="@dimen/dp2" app:ballWidth="@dimen/dp38" app:duration="300" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="90.0px" android:text="转向助力关联驾驶模式" />
+        </FrameLayout>
+        <com.autolink.hmi.carsettings.view.CustomFrameLayout android:id="@id/pet_window_button_layout" android:background="@drawable/unselected_button_bg" android:layout_width="720.0px" android:layout_height="80.0px" android:layout_marginLeft="96.0px" android:layout_marginTop="272.0px">
+            <com.autolink.hmi.carsettings.view.CustomTabLayoutView android:id="@id/tabWindow1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabIndicator="@drawable/tab_indicator_bg" style="@style/CustomTabLayout" />
+            <TextView android:textSize="28.0px" android:textColor="@color/selector_button_text_color" android:gravity="center" android:id="@id/pet_window_button_text_sport" android:layout_width="240.0px" android:layout_height="80.0px" android:text="运动" />
+            <TextView android:textSize="28.0px" android:textColor="@color/selector_button_text_color" android:gravity="center" android:id="@id/pet_window_button_text_comfortable" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="240.0px" android:text="舒适" />
+            <TextView android:textSize="28.0px" android:textColor="@color/selector_button_text_color" android:gravity="center" android:id="@id/pet_window_button_text_simple" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="480.0px" android:text="轻便" />
+        </com.autolink.hmi.carsettings.view.CustomFrameLayout>
+    </FrameLayout>
+</FrameLayout>

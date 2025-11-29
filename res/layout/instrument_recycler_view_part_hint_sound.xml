@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0px" android:text="报警音调" />
+    <FrameLayout android:background="@drawable/instrument_recycler_list_background" android:layout_width="718.0px" android:layout_height="80.0px" android:layout_marginTop="112.0px">
+        <ImageView android:id="@id/warningPickedButton" android:background="@drawable/selected_button_bg" android:layout_width="240.0px" android:layout_height="80.0px" />
+        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text1" android:layout_width="240.0px" android:layout_height="80.0px" android:text="高" />
+        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text2" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="240.0px" android:text="中" />
+        <TextView android:textSize="28.0px" android:textColor="@color/spinner_text_color" android:gravity="center" android:id="@id/warning_button_text3" android:layout_width="240.0px" android:layout_height="80.0px" android:layout_marginLeft="480.0px" android:text="低" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/color_meter_line" android:layout_width="1440.0px" android:layout_height="1.0px" android:layout_marginTop="232.0px" />
+</FrameLayout>

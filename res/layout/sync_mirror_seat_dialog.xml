@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/sync_mirror_seat_dialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/normal_dialog_background" android:layout_width="760.0px" android:layout_height="362.0px">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="664.0px" android:layout_height="154.0px" android:layout_marginTop="28.0px">
+            <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/sync_seat_title" android:layout_width="552.0px" android:layout_height="56.0px" android:text="@string/setting_seat_sync_title" android:layout_marginStart="56.0px" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_normal_text" android:gravity="center" android:id="@id/sync_seat_tip" android:layout_width="664.0px" android:layout_height="82.0px" android:layout_marginTop="72.0px" android:text="@string/setting_seat_sync_tip" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="664.0px" android:layout_height="80.0px" android:layout_marginTop="232.0px">
+            <Button android:textSize="28.0px" android:textColor="@color/color_seat_dialog_cancel_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_sync_cancel" android:background="@drawable/ambient_lighting_button_background" android:layout_width="312.0px" android:layout_height="80.0px" android:text="@string/cancel" />
+            <Button android:textSize="28.0px" android:textColor="@color/color_lock_picked_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_sync" android:background="@drawable/dialog_new_button" android:layout_width="312.0px" android:layout_height="80.0px" android:text="@string/setting_seat_dialog_sure_text" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

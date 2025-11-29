@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="8.0px" />
+            <gradient android:startColor="@color/color_rgb_button_bg_start" android:endColor="@color/color_rgb_button_bg_end" android:angle="270.0" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="8.0px" />
+            <gradient android:startColor="@color/color_rgb_music_button_picked_start" android:endColor="@color/color_rgb_music_button_picked_end" android:angle="270.0" />
+        </shape>
+    </item>
+</selector>

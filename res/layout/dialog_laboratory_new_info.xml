@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/root_group" android:tag="layout/dialog_laboratory_new_info_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/normal_dialog_background" android:clickable="true" android:layout_width="@dimen/dp760" android:layout_height="@dimen/dp236">
+        <com.autolink.hmi.carsettings.view.ALButton android:id="@id/close" android:background="@drawable/icon_common_dialog_close" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/sp32" android:textColor="@color/color_normal_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/driving_entertainment_restriction_mode1" app:layout_constraintBottom_toBottomOf="@id/close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/close" />
+        <TextView android:textSize="@dimen/sp28" android:textColor="@color/color_normal_text" android:gravity="center" android:layout_width="@dimen/dp664" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp46" android:text="@string/driving_entertainment_restriction_mode_info_laboratory" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

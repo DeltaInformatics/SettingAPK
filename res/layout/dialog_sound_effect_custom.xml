@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/root_group" android:tag="layout/dialog_sound_effect_custom_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/normal_dialog_background" android:layout_width="@dimen/dp1148" android:layout_height="@dimen/dp582">
+        <ImageView android:id="@id/iv_cancel" android:clickable="true" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginTop="40.0px" android:src="@mipmap/comm_close" android:layout_marginStart="40.0px" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp48" android:paddingEnd="@dimen/dp48">
+            <TextView android:textColor="@color/color_normal_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/custom_low" style="@style/style_content_tv" />
+            <com.autolink.hmi.carsettings.view.CenterSeekBar android:id="@id/cs_low" android:layout_width="@dimen/dp1052" android:layout_height="@dimen/dp48" android:layout_marginTop="@dimen/dp24" app:backgroundDrawable="@drawable/seekbar_background" app:progressDrawableBg="@drawable/seekbar_progress" app:seek_max="7" app:seek_min="-7" app:thumb="@drawable/shape_center_seekbar_thumb" />
+            <TextView android:textColor="@color/color_normal_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24" android:text="@string/custom_mid" style="@style/style_content_tv" />
+            <com.autolink.hmi.carsettings.view.CenterSeekBar android:id="@id/cs_middle" android:layout_width="@dimen/dp1052" android:layout_height="@dimen/dp48" android:layout_marginTop="@dimen/dp24" app:backgroundDrawable="@drawable/seekbar_background" app:progressDrawableBg="@drawable/seekbar_progress" app:seek_max="7" app:seek_min="-7" app:thumb="@drawable/shape_center_seekbar_thumb" />
+            <TextView android:textColor="@color/color_normal_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24" android:text="@string/custom_high" style="@style/style_content_tv" />
+            <com.autolink.hmi.carsettings.view.CenterSeekBar android:id="@id/cs_high" android:layout_width="@dimen/dp1052" android:layout_height="@dimen/dp48" android:layout_marginTop="@dimen/dp24" app:backgroundDrawable="@drawable/seekbar_background" app:progressDrawableBg="@drawable/seekbar_progress" app:seek_max="7" app:seek_min="-7" app:thumb="@drawable/shape_center_seekbar_thumb" />
+            <RelativeLayout android:layout_width="@dimen/dp1039" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24">
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-7" style="@style/style_content_tv" />
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" style="@style/style_content_tv" />
+                <TextView android:textColor="@color/color_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:layout_alignParentRight="true" style="@style/style_content_tv" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

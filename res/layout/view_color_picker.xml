@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="290.0px" android:layout_height="354.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fl_color" android:background="@drawable/view_color_picker_background_to_view" android:layout_width="290.0px" android:layout_height="290.0px">
+        <View android:background="@drawable/shape_white_gradually_trans" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/shape_black_gradually_trans" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/view_location" android:background="@drawable/shape_stroke_dot" android:layout_width="16.0px" android:layout_height="16.0px" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_progress" android:background="@null" android:layout_width="290.0px" android:layout_height="64.0px">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="290.0px" android:layout_height="16.0px" android:src="@mipmap/ic_color_picker_seek_bar_background" />
+            <SeekBar android:layout_gravity="center" android:id="@id/rl_color_bar" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="1" android:progressDrawable="@drawable/color_mode_progress_background" android:thumb="@drawable/shape_color_pick_bar" android:thumbOffset="28.0px" android:paddingStart="28.0px" android:paddingEnd="28.0px" android:splitTrack="@null" android:min="1" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

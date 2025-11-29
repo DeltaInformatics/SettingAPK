@@ -1,0 +1,414 @@
+.class public Lcom/autolink/adaptermanager/car/CarVehicleHvacPropConfig;
+.super Ljava/lang/Object;
+.source "CarVehicleHvacPropConfig.java"
+
+
+# static fields
+.field public static final HAL_AREAID_HVAC_VENDOR_AC_MAX_STATUS_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AC_MAX_STATUS_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AC_STATUS_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AC_STATUS_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ANION_PURIFY_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ANION_PURIFY_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AUTOMATIC_BTN_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AUTOMATIC_BTN_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AUTO_VENTILATION_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_AUTO_VENTILATION_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BACK_DEFROST_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BACK_DEFROST_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BLOWER_DELAY_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BLOWER_DELAY_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BT_NOISE_REDUCTION_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BT_NOISE_REDUCTION_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_BT_PHONE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_CYCLE_BTN_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_CYCLE_BTN_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_DRIVER_HEAT_AND_WIND_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_DRIVER_HEAT_AND_WIND_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FAN_SPEED_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FAN_SPEED_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FIRST_WIND_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FIRST_WIND_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FL_TEMPERATURE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FL_TEMPERATURE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CHANNEL1_TYPE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CHANNEL2_TYPE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CHANNEL3_TYPE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CHANNEL_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CHANNEL_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CON_LEVEL_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_CON_LEVEL_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_SURPLUS2_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_SURPLUS3_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_SURPLUS_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_SWITCH_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRCE_SWITCH_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRONT_BLOW_MODE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FRONT_BLOW_MODE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FR_TEMPERATURE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_FR_TEMPERATURE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_AUTO_SWING_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_AUTO_SWING_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_COOL_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_COOL_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_ELEC_TEMP_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_ELEC_TEMP_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_ENGINE_SPEED_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_ENGINE_SPEED_VALID_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_FREE_SWING_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_FREE_SWING_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_1_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_1_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_2_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_2_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_3_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_3_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_4_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_LAND_SCAP_4_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_MIRROR_SWING_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_MIRROR_SWING_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_MODE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_MODE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_1_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_1_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_2_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_2_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_3_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_3_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_4_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_HVAC_PROTRAIT_4_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_INDOOR_PM25_LEVEL_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_INDOOR_PM25_STATE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_OUTDOOR_PM25_LEVEL_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_OUTDOOR_PM25_STATE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_PARK_AIR_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_PARK_AIR_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_PASSENGER_HEAT_AND_WIND_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_PASSENGER_HEAT_AND_WIND_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_POWER_STATUS_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_POWER_STATUS_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_SYNC_STATE_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_SYNC_STATE_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_PHEV_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_WRITE:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_PHEV_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_READ:I = 0x0
+
+.field public static final HAL_AREAID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_WRITE:I = 0x0
+
+.field public static final HAL_PROPID_AC_MAX_STATUS_PHEV_READ:I = 0x21400665
+
+.field static final HAL_PROPID_EXTEMP_READ:I = 0x216002a8
+
+.field public static final HAL_PROPID_HVAC_SOC_READ:I = 0x21600666
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AC_MAX_STATUS_READ:I = 0x21400604
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AC_MAX_STATUS_WRITE:I = 0x21400605
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AC_STATUS_READ:I = 0x21400602
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AC_STATUS_WRITE:I = 0x21400603
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ANION_PURIFY_READ:I = 0x21400618
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ANION_PURIFY_WRITE:I = 0x21400619
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AUTOMATIC_BTN_READ:I = 0x21400606
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AUTOMATIC_BTN_WRITE:I = 0x21400607
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AUTO_VENTILATION_READ:I = 0x21400624
+
+.field public static final HAL_PROPID_HVAC_VENDOR_AUTO_VENTILATION_WRITE:I = 0x21400625
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BACK_DEFROST_READ:I = 0x2140063d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BACK_DEFROST_T1K_READ:I = 0x2140060e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BACK_DEFROST_WRITE:I = 0x2140060f
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BLOWER_DELAY_READ:I = 0x2140061e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BLOWER_DELAY_WRITE:I = 0x2140061f
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BT_NOISE_REDUCTION_READ:I = 0x21400620
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BT_NOISE_REDUCTION_WRITE:I = 0x21400621
+
+.field public static final HAL_PROPID_HVAC_VENDOR_BT_PHONE_WRITE:I = 0x2140063e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_CYCLE_BTN_READ:I = 0x21400608
+
+.field public static final HAL_PROPID_HVAC_VENDOR_CYCLE_BTN_WRITE:I = 0x21400609
+
+.field public static final HAL_PROPID_HVAC_VENDOR_DRIVER_HEAT_AND_WIND_READ:I = 0x21400614
+
+.field public static final HAL_PROPID_HVAC_VENDOR_DRIVER_HEAT_AND_WIND_WRITE:I = 0x21400615
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FAN_SPEED_READ:I = 0x2140060a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FAN_SPEED_WRITE:I = 0x2140060b
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FIRST_WIND_READ:I = 0x21400622
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FIRST_WIND_WRITE:I = 0x21400623
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FL_TEMPERATURE_READ:I = 0x21600626
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FL_TEMPERATURE_WRITE:I = 0x21400627
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CHANNEL1_TYPE_READ:I = 0x2140062e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CHANNEL2_TYPE_READ:I = 0x2140062f
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CHANNEL3_TYPE_READ:I = 0x21400630
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CHANNEL_READ:I = 0x2140062c
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CHANNEL_WRITE:I = 0x2140062d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CON_LEVEL_READ:I = 0x21400632
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_CON_LEVEL_WRITE:I = 0x21400633
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_SURPLUS2_READ:I = 0x21400636
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_SURPLUS3_READ:I = 0x21400637
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_SURPLUS_READ:I = 0x21400631
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_SWITCH_READ:I = 0x2140062a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRCE_SWITCH_WRITE:I = 0x2140062b
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRONT_BLOW_MODE_READ:I = 0x2140060c
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FRONT_BLOW_MODE_WRITE:I = 0x2140060d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FR_TEMPERATURE_READ:I = 0x21600628
+
+.field public static final HAL_PROPID_HVAC_VENDOR_FR_TEMPERATURE_WRITE:I = 0x21400629
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_AUTO_SWING_READ:I = 0x21400655
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_AUTO_SWING_WRITE:I = 0x21400656
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_COOL_READ:I = 0x2140065f
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_COOL_WRITE:I = 0x21400660
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_ELEC_TEMP_READ:I = 0x21400669
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_ELEC_TEMP_WRITE:I = 0x2140066a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_ENGINE_SPEED_READ:I = 0x21601235
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_ENGINE_SPEED_VALID_READ:I = 0x21400565
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_FREE_SWING_READ:I = 0x21400659
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_FREE_SWING_WRITE:I = 0x2140065a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_1_READ:I = 0x21400645
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_1_WRITE:I = 0x21400646
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_2_READ:I = 0x21400647
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_2_WRITE:I = 0x21400648
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_3_READ:I = 0x21400649
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_3_WRITE:I = 0x2140064a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_4_READ:I = 0x2140064b
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_LAND_SCAP_4_WRITE:I = 0x2140064c
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_MIRROR_SWING_READ:I = 0x21400657
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_MIRROR_SWING_WRITE:I = 0x21400658
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_MODE_READ:I = 0x21400634
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_MODE_WRITE:I = 0x21400635
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_1_READ:I = 0x2140064d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_1_WRITE:I = 0x2140064e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_2_READ:I = 0x2140064f
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_2_WRITE:I = 0x21400650
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_3_READ:I = 0x21400651
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_3_WRITE:I = 0x21400652
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_4_READ:I = 0x21400653
+
+.field public static final HAL_PROPID_HVAC_VENDOR_HVAC_PROTRAIT_4_WRITE:I = 0x21400654
+
+.field public static final HAL_PROPID_HVAC_VENDOR_INDOOR_PM25_LEVEL_READ:I = 0x21400638
+
+.field public static final HAL_PROPID_HVAC_VENDOR_INDOOR_PM25_STATE_READ:I = 0x21400612
+
+.field public static final HAL_PROPID_HVAC_VENDOR_LR_HEAT_AND_WIND_READ:I = 0x2140066b
+
+.field public static final HAL_PROPID_HVAC_VENDOR_LR_HEAT_AND_WIND_WRITE:I = 0x2140066c
+
+.field public static final HAL_PROPID_HVAC_VENDOR_OUTDOOR_PM25_LEVEL_READ:I = 0x21400639
+
+.field public static final HAL_PROPID_HVAC_VENDOR_OUTDOOR_PM25_STATE_READ:I = 0x21400613
+
+.field public static final HAL_PROPID_HVAC_VENDOR_PARK_AIR_READ:I = 0x21400667
+
+.field public static final HAL_PROPID_HVAC_VENDOR_PARK_AIR_WRITE:I = 0x21400664
+
+.field public static final HAL_PROPID_HVAC_VENDOR_PASSENGER_HEAT_AND_WIND_READ:I = 0x21400616
+
+.field public static final HAL_PROPID_HVAC_VENDOR_PASSENGER_HEAT_AND_WIND_WRITE:I = 0x21400617
+
+.field public static final HAL_PROPID_HVAC_VENDOR_POWER_STATUS_READ:I = 0x21400600
+
+.field public static final HAL_PROPID_HVAC_VENDOR_POWER_STATUS_WRITE:I = 0x21400601
+
+.field public static final HAL_PROPID_HVAC_VENDOR_RR_HEAT_AND_WIND_READ:I = 0x2140066d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_RR_HEAT_AND_WIND_WRITE:I = 0x2140066e
+
+.field public static final HAL_PROPID_HVAC_VENDOR_SYNC_STATE_READ:I = 0x21400610
+
+.field public static final HAL_PROPID_HVAC_VENDOR_SYNC_STATE_WRITE:I = 0x21400611
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_PHEV_READ:I = 0x21400663
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_READ:I = 0x2140061c
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_INTENSITY_WRITE:I = 0x2140061d
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_PHEV_READ:I = 0x21400662
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_READ:I = 0x2140061a
+
+.field public static final HAL_PROPID_HVAC_VENDOR_ULTRAVIOLET_STERILIZATION_WRITE:I = 0x2140061b
+
+.field public static final HAL_PROPID_HVAC_VENDOR_WIND_SCREEN_HEAT_READ:I = 0x21400589
+
+.field public static final HAL_PROPID_HVAC_VENDOR_WIND_SCREEN_HEAT_WRITE:I = 0x21400588
+
+.field static final HAL_PROPID_PANEL_AC_READ:I = 0x21400670
+
+.field static final HAL_PROPID_PANEL_FLTEMP_READ:I = 0x2160066f
+
+.field static final HAL_PROPID_PANEL_FRONT_AUTO_READ:I = 0x21400673
+
+.field static final HAL_PROPID_PANEL_FRONT_BLOW_MODE_READ:I = 0x21400672
+
+.field static final HAL_PROPID_PANEL_FRONT_BLOW_SPEED_READ:I = 0x21400671
+
+.field static final HAL_PROPID_PANEL_REAR_DEFROST_READ:I = 0x21400675
+
+.field static final HAL_PROPID_PANEL_RECY_MODE_READ:I = 0x21400674
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
