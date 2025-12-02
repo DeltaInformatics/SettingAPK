@@ -7537,6 +7537,7 @@
     <public type="layout" name="dialog_switch_language" id="0x7f0d00f2" />
     <public type="layout" name="fragment_language" id="0x7f0d00f3" />
     <public type="layout" name="fragment_unit" id="0x7f0d00f4" />
+    <public type="layout" name="view_tab_custom_placeholder" id="0x7f0d00fa" />
     <public type="mipmap" name="ambient_light_bg" id="0x7f0e0000" />
     <public type="mipmap" name="ambient_light_bg_1" id="0x7f0e0001" />
     <public type="mipmap" name="ambient_light_my1_bg" id="0x7f0e0002" />

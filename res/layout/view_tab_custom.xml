@@ -2,5 +2,6 @@
 <com.autolink.hmi.carsettings.view.CustomTabItemView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/dp180" android:layout_height="@dimen/dp55"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:textSize="@dimen/sp28" android:textColor="@color/selector_tab_item_text_color" android:gravity="center" android:id="@id/tvTab" android:layout_width="@dimen/dp180" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:id="@id/version_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" />
     <ImageView android:id="@id/ivTabIndicator" android:background="@drawable/selector_tab_item_indicator" android:layout_width="@dimen/dp32" android:layout_height="@dimen/px4" android:layout_marginTop="@dimen/dp12" />
 </com.autolink.hmi.carsettings.view.CustomTabItemView>
