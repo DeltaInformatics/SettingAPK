@@ -523,6 +523,8 @@
 
     invoke-static {v2}, Lcom/autolink/hmi/libbase/utils/LogUtils;->i(Ljava/lang/String;)V
 
+    const-string p1, "tabItemView"
+
     if-nez v1, :cond_1
 
     goto :goto_1
@@ -553,11 +555,9 @@
 
     invoke-virtual {p0, v1, v3}, Lcom/autolink/hmi/carsettings/systemsettings/DisplayLazyLoadFragment;->setTextBold(Landroid/widget/TextView;Z)V
 
-    const-string p1, "tabItemView"
-
     .line 184
-	
-	:goto_1
+
+        :goto_1
     invoke-static {v0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
