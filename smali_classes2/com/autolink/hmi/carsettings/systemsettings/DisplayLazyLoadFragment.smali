@@ -477,7 +477,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d00fa
+    const v1, 0x7f0d00ef
 
     const/4 v2, 0x0
 
@@ -485,7 +485,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a04c1
+    const v1, 0x7f0a0490
 
     .line 179
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -540,7 +540,6 @@
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 182
-    :goto_1
     invoke-static {v3}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
     move-result-object p1
@@ -557,6 +556,8 @@
     const-string p1, "tabItemView"
 
     .line 184
+	
+	:goto_1
     invoke-static {v0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
